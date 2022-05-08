@@ -1,1 +1,2 @@
 2022/05/05 11:59:36 [alert] 12896#2648: the event "ngx_master_12896" was not signaled for 5s
+2022/05/08 09:04:40 [error] 6928#8932: *10689 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /campaign/ HTTP/1.0", upstream: "fastcgi://127.0.0.1:10039", host: "msme.local", referrer: "http://msme.local/wp-admin/post.php?post=1068&action=edit"

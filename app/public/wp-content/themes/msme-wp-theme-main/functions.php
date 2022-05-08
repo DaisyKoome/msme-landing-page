@@ -202,3 +202,5 @@ add_filter("gform_init_scripts_footer", "init_scripts");
 function init_scripts() {
   return true;
 }
+
+remove_filter( 'gform_enable_field_label_visibility_settings', 'filter_gform_enable_field_label_visibility_settings', 10, 1 );

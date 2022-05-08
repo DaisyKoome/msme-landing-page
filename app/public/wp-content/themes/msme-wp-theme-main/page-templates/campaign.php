@@ -102,24 +102,137 @@
   </div>
 </header>
 
-<div class="heading-3">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+    
+    $(function () {
+        $("#input_4_7").change(function () {
+            if ($(this).val() == " ") {
+                $("#field_4_8").hide();
+            } else {
+                $("#field_4_8").show();
+                $("#field_4_10").hide();
+                $("#field_4_11").hide();
+            }
+        });
+    });
+
+    $(function () {
+        $("#input_4_8").change(function () {
+            if ($(this).val() == "#input_4_8") {
+                $("#field_4_8").show();
+            } else {
+                $("#field_4_8").hide();
+                $("#field_4_10").hide();
+                $("#field_4_11").hide();
+            }
+        });
+    });
+    $(function () {
+        $("#input_4_9").change(function () {
+            if ($(this).val() == "Yes") {
+                $("#field_4_10").show();
+            }
+        });
+    });
+
+    $(function () {
+        $("#input_4_10").change(function () {
+            if ($(this).val() == "No") {
+              $("#field_4_11").show();
+              $("#field_4_10").hide();
+            }
+        });
+    });
+</script>
+
+<section class="heading-3" style="padding-bottom:0px !important;">
 <div class="container h-60">
     <div class="row h-100 align-items-center">
-      <div class="col-12 text-center">
+        <div class="d-flex justify-content-center" data-js-reload="field_4_7">
         <h2 class="own-business-heading">Do you own a business?</h2>
-        <label for="bizyes">Yes</label><br>
-        <input type="radio" id="bizyes" name="byes" value="Yes">
-        <label for="bizno">No</label><br>
-        <input type="radio" id="bizno" name="bno" value="No">
+        <input type="radio" id="input_4_7" class="own-business-heading" style="margin-top: 18px;
+        margin-left: 20px;" name="own_biz" value="Yes">
+        <label for="bizyes" class="own-business-heading" style="color:white; margin-top: 12px;
+        margin-left: 20px;">Yes</label><br>
+        <input type="radio" id="input_4_8" class="own-business-heading" style="margin-top: 18px;
+        margin-left: 20px;" name="own_biz" value="No">
+        <label for="bizno" class="own-business-heading" style="margin-top: 12px;
+        margin-left: 20px;color:white;">No</label><br>
+        </div>
+  </div>
+  </div>
+</section>
+
+
+
+<section class="heading-3" style="padding-top:0px !important; display:none;" id="field_4_8">
+<div class="container h-60">
+    <div class="row h-100 align-items-center">
+        <div class="d-flex justify-content-center" data-js-reload="field_4_9">
+        <h2 class="own-business-heading">Are you a Co-op MSME account holder?</h2>
+        <input type="radio" id="input_4_9" style="margin-top: 18px;
+        margin-left: 20px;" name="acc" value="Yes">
+        <label for="bizyes" style="color:white; margin-top: 12px;
+        margin-left: 20px;">Yes</label><br>
+        <input type="radio" id="input_4_10" style="margin-top: 18px;
+        margin-left: 20px;" name="acc" value="No">
+        <label for="bizno"  style="margin-top: 12px;
+        margin-left: 20px;color:white;">No</label><br>
+        </div>
+  </div>
+</section>
+
+<section class="msme-background contact" id="field_4_10" style="display:none"> 
+  <div class="row">
+    <div class="col-md-10 mx-auto">
+      <div class="contact-padding">
+        <div class="bg-white contact-padding box-shadow">
+          
+          <div class="container">
+            <div class="row py-5">
+              <div class="col-md-12 px-3">
+                
+                <h1 class="contact-title mb-5">Get Started</h1>
+
+                <?php echo do_shortcode( '[gravityform id="5" title="false" description="false"]' ); ?>
+
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</section>
+
+<section class="msme-background contact" id="field_4_11" style="display:none"> 
+  <div class="row">
+    <div class="col-md-10 mx-auto">
+      <div class="contact-padding">
+        <div class="bg-white contact-padding box-shadow">
+          
+          <div class="container">
+            <div class="row py-5">
+              <div class="col-md-12 px-3">
+                
+                <h1 class="contact-title mb-5">Share your details to open a Co-op Bank MSME account</h1>
+
+                <?php echo do_shortcode( '[gravityform id="5" title="false" description="false"]' ); ?>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <div class="container h-100 h-biz-body">
     <div class="row h-100 align-items-center">
       <div class="col-12 text-center">
-        <h1 class="fw-ligh text-white">Business Solutions for Businesses<br></h1>
+        <h1 class="fw-ligh text-white">Solutions for Businesses<br></h1>
       </div>
     </div>
   </div>
@@ -182,8 +295,7 @@
   </div>
 </section>
 
-<section class="msme-background contact">
-  
+<section class="msme-background contact"> 
   <div class="row">
     <div class="col-md-10 mx-auto">
       <div class="contact-padding">
@@ -191,18 +303,12 @@
           
           <div class="container">
             <div class="row py-5">
-              <div class="col-md-6 px-3">
+              <div class="col-md-12 px-3">
                 
-                <h1 class="contact-title mb-5">Leave us a message</h1>
+                <h1 class="contact-title mb-5">Get Started</h1>
 
-                <?php echo do_shortcode( '[gravityform id="1" title="false" description="false"]' ); ?>
+                <?php echo do_shortcode( '[gravityform id="5" title="false" description="false"]' ); ?>
 
-              </div>
-              <div class="col-md-6">
-
-              <h1 class="contact-title mb-5">Leave us a message</h1>
-
-              <?php echo do_shortcode( '[gravityform id="1" title="false" description="false"]' ); ?>
               </div>
             </div>
           </div>
@@ -233,3 +339,10 @@
 						<a class="text-white encircled" target="_blank" href="https://www.instagram.com/coopbankenya/?hl=en"><i class="d-inline fab fa-instagram fa-lg"></i></a>
 						<a  class="text-white encircled" target="_blank" href="https://www.facebook.com/pages/Co-op-Bank-Kenya-Official/167665299973840"><i class="d-inline fab fa-facebook fa-lg"></i></a>
 						<a  class="text-white encircled" target="_blank" href="https://twitter.com/Coopbankenya">	<i class="d-inline fab fa-twitter fa-lg"></i></a>
+						<a class="text-white encircled" target="_blank" href="https://www.linkedin.com/company/62404/"><i class="d-inline fab fa-linkedin fa-lg"></i></a>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
