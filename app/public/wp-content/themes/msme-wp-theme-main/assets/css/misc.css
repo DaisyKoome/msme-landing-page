@@ -1,0 +1,563 @@
+/* Additional css by Daisy */
+h1.tribe-events-single-event-title {
+  text-align: center;
+}
+
+
+.tribe-events-schedule.tribe-clearfix {
+  justify-content: center;
+text-align: center;
+}
+
+
+.tribe-events-event-image img {
+  display: block;
+  margin: auto;
+}
+
+h1.tribe-events-single-event-title {
+  text-align: center;
+  font-family: 'Montserrat', Arial, sans-serif !important;
+  font-size: 16px !important;
+}
+
+/* End of CSS by Daisy */
+
+.dropdown:hover>.dropdown-menu {
+display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+pointer-events: none;
+}
+
+/* Additional css by eunitah */
+
+.events-title {
+  font-size: 17px;
+}
+
+.card-title-sol {
+  padding-bottom: 10px;
+}
+
+.card-text-sol {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.article-link-sol {
+  letter-spacing: 0.2px;
+}
+
+.card-text-msme {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.tag p {
+  font-size: 15px;
+  padding: 6px 23px;
+  letter-spacing: 1;
+
+}
+
+.about-intro, p {
+  line-height: 23px;
+}
+
+.card-title-soll {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+padding: 10px 0;
+
+}
+
+.about-intro, p, em{
+  font-size: 16px;
+  line-height: 23px;
+}
+
+em strong{
+  font-size: 16px;
+}
+
+.breadcrumb-item {
+  font-size: 17px;
+}
+
+
+element.style {
+}
+.card-title-sol {
+  padding-bottom: 10px;
+}
+.card-title-sol {
+  font-weight: 600;
+}
+
+.tab-label {
+  font-size: 17px;
+font-weight:600;
+  cursor: pointer;
+}
+
+.tribe-common .tribe-common-h5, .tribe-common .tribe-common-h6 {
+  color: #76BB20 !important;
+}
+.tribe-events .tribe-events-calendar-latest-past__event-date-tag-month {
+  color: #76BB20 !important;
+}
+
+.tribe-events .tribe-events-calendar-latest-past__event-date-tag-month, .tribe-events .tribe-events-calendar-latest-past__event-date-tag-year {
+  color: #76BB20 !important;
+}
+.tribe-events .tribe-events-calendar-latest-past__event-title-link {
+  color: #215A3F !important;
+}
+
+.tribe-events .tribe-events-calendar-latest-past__event-datetime {
+  color: #76BB20 !important;
+}
+
+.tribe-events .tribe-events-calendar-latest-past__event-featured-image, .tribe-events .tribe-events-calendar-latest-past__event-featured-image-link {
+  display: block !important;;;
+  background-color: #000000 !important;;;
+  -webkit-box-shadow: 0px 10px 20px 0 rgb(0 1 0 / 25%) !important;
+  box-shadow: 0px 10px 20px 0 rgb(0 1 0 / 25%) !important;
+}
+
+.tribe-events-calendar-latest-past h2, .tribe-events-calendar-latest-past p, .tribe-events-calendar-latest-past time, .tribe-events-calendar-latest-past h3 {
+  font-family: 'Montserrat', Arial, sans-serif !important;
+  font-size: 15px !important;
+}
+
+.tribe-events .tribe-events-c-search__button {
+  background-color: #76BB20 !important;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.fw-ligh {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 68px;
+}
+
+.lead-msme {
+  font-size: 18px;
+  line-height: 28px;
+margin:15px 0;
+}
+
+.home-event {
+  font-size: 28px;
+  line-height: 43px;
+}
+}
+
+@media only screen and (max-width: 650px) {
+
+.masthead {
+  height: 500px !important;
+}
+
+.fw-ligh {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+padding:10px;
+}
+
+}
+
+@media only screen and (max-width: 570px){
+.fw-ligh {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 39px;
+  padding: 0px;
+}
+
+.cta-padding {
+  padding: 9px !important;
+}
+
+.home-event {
+  font-size: 24px;
+  line-height: 23px;
+}
+
+.msme-events .card {
+  margin-bottom: 0px;
+}
+
+.events-title {
+  font-size: 14px;
+}
+
+.footer-mobile .tab-label, .footer-mobile input:checked + .tab-label {
+  font-size: 20px;
+  line-height: 0;
+}
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
+  min-height: auto;
+  padding-bottom: 0;
+  padding-top: 20px;
+}
+
+/*end-of- Additional css by eunitah */
+
+.single-intro ul li{
+list-style: disc;
+}
+
+.single-intro ol li{
+list-style: auto;
+}
+
+.single-intro ul{
+margin-left: 26px;
+}
+
+.single-intro ol{
+margin-left: 26px;
+}
+
+.tribe-events-notices, .tribe-events-schedule, .tribe-events-cal-links, .tribe-events-meta-group, .tribe-events-single-event-title, .tribe-events-single-event-description, .tribe-events-nav-pagination li ul a, .tribe-events-nav-previous, .tribe-events-back a, .tribe-events-schedule h2, .tribe-events-schedule span, .tribe-events-nav-next{
+font-family: 'Montserrat', Arial, sans-serif !important;
+}
+
+.tribe-events-single-event-title{
+    font-size: 36px;
+  color: #76bb20;
+}
+.tribe-events-event-image img{
+    height: 300px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.tribe-events-single-event-description p{
+font-size: 16px;
+}
+
+
+.about-content ol li {
+list-style: disc;
+font-size: 16px;
+  line-height: 23px;
+}
+
+.about-content ol{
+padding: 16px;
+}
+.single-intro p b{
+padding-top: 8px;
+}
+
+#menu-item-dropdown-458  span:link{
+color: white !important;
+}
+#menu-item-dropdown-458  span:visited{
+color: white !important;
+}
+#menu-item-dropdown-458 span:active{
+color: black !important;
+}
+
+#menu-item-dropdown-458 {
+color: white !important;
+}
+
+
+table ul li {
+  list-style: auto !important;
+    font-size: 16px;
+  line-height: 23px;
+}
+
+
+td, th {
+  font-size: 16px !important;
+  line-height: 23px;
+}
+
+.masthead-heading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 49px !important;
+  line-height: 48px !important;
+  padding-bottom: 0%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.about-intro, p{
+font-family: Montserrat;
+  font-style: normal;
+}
+
+label{
+    font-family: Montserrat;
+  font-style: normal;
+}
+
+.tribe-events-c-top-bar__datepicker-button, .tribe-events-c-top-bar__today-button{
+display:none !important;
+}
+
+
+.gfield_validation_message{
+color:red !important;
+}
+
+.mcalc .mcalc-results h2{
+font-size: 43px;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-month-nav, .tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-month-mobile-events {
+  display: unset!important;
+  visibility: unset !important;
+}
+
+.uwy .uai{
+background: #215a3f !important;
+}
+
+.single-blank-template a{
+color:#76BB20;
+}
+
+.single-blank-template ol li{
+font-size: 16px;
+  line-height: 23px;
+font-family: Montserrat;
+  font-style: normal;
+list-style: auto;
+/* 	padding-left:20px; */
+}
+
+.single-blank-template ol{
+padding-left:25px;
+}
+
+.font-italic{
+font-style:italic !important;
+}
+
+.tribe-events-page-template #menu-item-233 a span{
+    color: rgb(0, 0, 0) !important;
+}
+
+.btn-msme-2 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #215a3f;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 10%), 0px 4px 6px rgb(0 0 0 / 5%), inset 0px 1px 0px rgb(255 255 255 / 10%);
+  border-radius: 2px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 13px;
+  text-align: center;
+  color: #FFFFFF;
+  height: 49.35205078125px;
+  width: 231.514282px;
+  border-radius: 2px;
+}
+
+.mcalc {
+  margin: 0px 0 27px !important;
+ 
+}
+
+.tribe-events-c-search__input-control--keyword{
+display:none !important;
+}
+
+
+.page-id-227 input{
+padding: 12px 12px 14px 12px;
+  border: 1px solid #c5cbd0;
+  margin: 0;
+  background-color: #fff;
+  color: #003b4c;
+  width: 100%;
+  resize: vertical;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 27px;
+  border-radius: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+margin-bottom: 20px;
+}
+
+/*---------- CALENDER ----------*/
+.tribe-events .tribe-events-calendar-month {
+  margin-bottom: var(--tec-spacer-1);
+  max-width: 400px;
+  margin: 0 auto !important;
+}
+
+.tribe-events .tribe-events-c-nav {
+  position: absolute;
+  top: 110px;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+padding: 96px;
+}
+
+.tribe-common--breakpoint-medium.tribe-common .tribe-common-h4 {
+  font-size: 17px;
+  line-height: var(--tec-line-height-1);
+}
+
+.tribe-common .tribe-common-b2 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-month__day {
+  aspect-ratio: auto;
+  border-color: var(--tec-color-border-secondary-month-grid);
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  min-height: 100px;
+  overflow: visible;
+  padding-top: 0;
+}
+
+.tribe-events .tribe-events-calendar-month__day-cell--selected, .tribe-events .tribe-events-calendar-month__day-cell--selected:focus, .tribe-events .tribe-events-calendar-month__day-cell--selected:hover {
+  background-color: green !important;
+}
+
+.tribe-events .tribe-events-calendar-month__day-date-daynum {
+  vertical-align: middle;
+}
+
+.tribe-events-header__top-bar{
+display:none !important;
+}
+
+
+.fixed{
+overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+@media only screen and (max-width: 400px){
+
+.offset-msme{
+    padding-top: 86px;
+}
+.txt-align-center{
+      text-align: center;
+}
+
+.offset-btn{
+  margin-bottom:30px;
+}
+
+}
+
+@media only screen and (max-width: 650px){
+
+.offset-msme{
+       padding-top: 80px;
+}
+.txt-align-center{
+      text-align: center;
+}
+.offset-btn{
+  margin-bottom:30px;
+}
+
+}
+
+.offset-msme{
+       padding-top: 120px;
+}
+
+.searchandfilter ul {
+  display: inline-flex;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.searchandfilter ul li {
+  padding:10px;
+}
+
+.sf-field-taxonomy-cat_business_solutions label, .sf-input-select {
+  width: 400px !important;
+}
+
+.sf-input-text{
+font-family: Montserrat;
+  font-style: bolder;
+  font-weight: 600;
+  font-size: 16px;
+width: 400px;border: none;
+  padding: 15px;
+}
+
+
+@media only screen and (max-width: 900px){
+
+.searchandfilter ul {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+}
+
+.page-id-49 .sf-input-text{
+border: 1px solid #8080808a;
+}
+
+.dropdown-menu li{
+
+border-bottom:2px dotted white;
+padding-bottom:6px;
+padding-top:6px;
+}
+
+.sf-field-submit input{
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #76BB20;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 10%), 0px 4px 6px rgb(0 0 0 / 5%), inset 0px 1px 0px rgb(255 255 255 / 10%);
+  border-radius: 2px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 13px;
+  text-align: center;
+  color: #FFFFFF;
+  height: 49.35205078125px;
+  width: 178.5142822265625px;
+  border-radius: 2px;
+border:none;
+margin-top:5px;
+}
