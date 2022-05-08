@@ -73,9 +73,20 @@
     margin-left: 30px; margin-top: 10px;">
         </a>
       </div>
+        <div class="col-md-8 button" style="margin-top:20px;">
+        <button style="margin-right:30px; background: #76BC21; border-radius: 3px; border: #76BC21; color:white !important; font-weight: 700;
+        font-size: 16px; line-height: 28px; display: flex; align-items: center; text-align: center;">
+        <a href="https://msme.co-opbank.co.ke/" target="_blank" style="color:white;">
+          MSME
+        </button>
+        <button style="background: #76BC21; border-radius: 3px; border: #76BC21; color:white !important; font-weight: 700;
+        font-size: 16px; line-height: 28px; display: flex; align-items: center; text-align: center;">
+        <a href="https://campaign.co-opbank.co.ke/ecommerce/" target="_blank" style="color:white;">
+          E-Commerce
+        </button>
+        <div>
     </div>
   </div>
-		
 	</section>
 	</header>
 
@@ -122,9 +133,11 @@
             if ($(this).val() == "#input_4_8") {
                 $("#field_4_8").show();
             } else {
+                window.location.href = "http://msme.local/";
                 $("#field_4_8").hide();
                 $("#field_4_10").hide();
                 $("#field_4_11").hide();
+
             }
         });
     });
@@ -132,6 +145,7 @@
         $("#input_4_9").change(function () {
             if ($(this).val() == "Yes") {
                 $("#field_4_10").show();
+                $("#field_4_11").hide();
             }
         });
     });
@@ -218,7 +232,7 @@
                 
                 <h1 class="contact-title mb-5">Share your details to open a Co-op Bank MSME account</h1>
 
-                <?php echo do_shortcode( '[gravityform id="5" title="false" description="false"]' ); ?>
+                <?php echo do_shortcode( '[gravityform id="7" title="false" description="false"]' ); ?>
 
               </div>
             </div>
@@ -246,7 +260,7 @@
         
           <div class="tab">
             <input type="checkbox" class="d-none" id="1">
-            <label class="tab-label" for="1">MSME Account</label>
+            <label class="tab-label" for="1">Business Loans</label>
             <div class="tab-content">
               <p>Our MSME Current Account comes with different packages that suit your business needs. The available packages include; </p>
               <div class="container">
@@ -268,8 +282,8 @@
                 box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
               <div class="card-body primary-back" style="height: 210px; min-height: 210px; max-height: 210px; margin-top: -7px;
                 box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
-              <h5 class="card-title-soll">MSME Term Loan</h5>
-              <div class="card-text-sol"><p>This is the money you can borrow for your business for a period of time to help your business expand, repayable to upto 60 months.</p></div>
+              <h5 class="card-title-soll">MSME Overdraft/Working Capital</h5>
+              <div class="card-text-sol"><p>Business doesn’t need to stop when payments are delayed. Access our overdraft facilities which allow you to withdraw your current account beyond zero.</p></div>
             </div>
             </div>
           </div>
@@ -279,8 +293,8 @@
                 box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
               <div class="card-body primary-back" style="height: 210px; min-height: 210px; max-height: 210px; margin-top: -7px;
                 box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
-              <h5 class="card-title-soll">MSME Term Loan</h5>
-              <div class="card-text-sol"><p>This is the money you can borrow for your business for a period of time to help your business expand, repayable to upto 60 months.</p></div>
+              <h5 class="card-title-soll">Mobile Loans</h5>
+              <div class="card-text-sol"><p>Get quick biashara loans  via MCo-opCash or *667#</p></div>
             </div>
             </div>
           </div>
@@ -293,47 +307,16 @@
      </div>
   </div>
   </div>
-</section>
-
-<section class="msme-background contact"> 
-  <div class="row">
-    <div class="col-md-10 mx-auto">
-      <div class="contact-padding">
-        <div class="bg-white contact-padding box-shadow">
-          
-          <div class="container">
-            <div class="row py-5">
-              <div class="col-md-12 px-3">
-                
-                <h1 class="contact-title mb-5">Get Started</h1>
-
-                <?php echo do_shortcode( '[gravityform id="5" title="false" description="false"]' ); ?>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
 <section class="primary-back footer">
 		<div class="container">
 			<div class="row py-3">
-				<div class="col-md-1">
-				<?php 
-							$custom_logo_id = get_theme_mod( 'custom_logo' );
-							$image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
-						?>
-				<img src="<?php echo $image[0]; ?>" class="img-fluid" alt="Responsive image">
-					
-				</div>
-				<div class="col-md-8">
-					<p class="text-white footer-2-p pt-3 text-center align-bottom">© 2022 Co-operative Bank. All Rights Reserved. Co-operative Bank is regulated by the Central Bank of Kenya</p>
-				</div>
-				<div class="col-md-3 d-flex justify-content-end">
-					<div class="text-white text-right pt-3">
+        <div class="col-md-10 d-flex justify-content-start">
+        <p class="footer">For further assistance, contact us through  020 227 6000 | 0703027000 or customerservice@co-opbank.co.ke</p>
+      </div>
+				<div class="col-md-2 d-flex justify-content-end">
+					<div class="text-white ">
 						
 						<a class="text-white encircled" target="_blank" href="https://www.youtube.com/channel/UC_tyHII-be9BxsGHHMnePMw"><i class="d-inline fab fa-youtube fa-lg"></i></a>
 						<a class="text-white encircled" target="_blank" href="https://www.instagram.com/coopbankenya/?hl=en"><i class="d-inline fab fa-instagram fa-lg"></i></a>

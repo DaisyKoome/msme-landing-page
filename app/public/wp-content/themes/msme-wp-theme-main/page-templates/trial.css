@@ -153,3 +153,45 @@ select#input_5_7 {
     margin-left: -265px;
     margin-right: 125px;
 }
+
+
+
+
+
+
+
+
+
+.page-id-1068 .gfield_validation_message {
+    color: red !important;
+    margin-top: -24px;
+    margin-left: -260px;
+}
+
+.page-id-1068 div#validation_message_5_21 {
+    margin-left: -295px;
+}
+
+.page-id-1068 div#validation_message_5_22 {
+    margin-top: -60px;
+    margin-right: 115px;
+}
+
+div#gform_7_validation_container {
+    display: none;
+}
+
+
+
+
+.col-md-2.d-flex.justify-content-end {
+    position: absolute;
+    margin-left: 940px;
+    width: 260px;
+    margin-top: 0px;
+}
+
+.col-md-10.d-flex.justify-content-start {
+    margin-left: -55px;
+}
+

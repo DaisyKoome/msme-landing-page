@@ -42897,3 +42897,1846 @@ https://play.google.com/store/apps/details?id=com.platdel.driver</font>
 2022-05-08 15:59:18.098408 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#5) submission. 
 2022-05-08 15:59:18.171807 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
 2022-05-08 15:59:18.175791 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? No. 
+2022-05-08 18:53:47.138494 - DEBUG --> GFFormsModel::trash_form(): User ID 1 requested moving of form #6 to trash. 
+2022-05-08 18:53:51.400451 - DEBUG --> GFFormsModel::trash_form(): User ID 1 requested moving of form #6 to trash. 
+2022-05-08 18:57:21.733863 - DEBUG --> GF_Form_CRUD_Handler::cleanup(): Form meta json before stripslashes: {\"title\":\"non_account_holders_campaign\",\"description\":\"Lead form for new MSME campaign\",\"labelPlacement\":\"top_label\",\"descriptionPlacement\":\"below\",\"button\":{\"type\":\"text\",\"text\":\"\",\"imageUrl\":\"\",\"width\":\"auto\",\"location\":\"inline\",\"layoutGridColumnSpan\":6,\"conditionalLogic\":null,\"id\":\"submit\"},\"fields\":[{\"type\":\"text\",\"id\":16,\"formId\":7,\"label\":\"Full Name\",\"adminLabel\":\"\",\"isRequired\":true,\"size\":\"large\",\"errorMessage\":\"\",\"visibility\":\"visible\",\"inputs\":null,\"description\":\"\",\"allowsPrepopulate\":false,\"inputMask\":false,\"inputMaskValue\":\"\",\"inputMaskIsCustom\":false,\"maxLength\":\"\",\"inputType\":\"\",\"labelPlacement\":\"\",\"descriptionPlacement\":\"\",\"subLabelPlacement\":\"\",\"placeholder\":\"Enter your full name\",\"cssClass\":\"d-flex justify-content-start\",\"inputName\":\"\",\"noDuplicates\":false,\"defaultValue\":\"\",\"enableAutocomplete\":false,\"autocompleteAttribute\":\"\",\"choices\":\"\",\"conditionalLogic\":\"\",\"productField\":\"\",\"layoutGridColumnSpan\":6,\"enablePasswordInput\":\"\",\"enableEnhancedUI\":0,\"layoutGroupId\":\"93a519fa\",\"multipleFiles\":false,\"maxFiles\":\"\",\"calculationFormula\":\"\",\"calculationRounding\":\"\",\"enableCalculation\":\"\",\"disableQuantity\":false,\"displayAllCategories\":false,\"useRichTextEditor\":false,\"errors\":[],\"pageNumber\":1,\"fields\":\"\",\"displayOnly\":\"\"},{\"type\":\"text\",\"id\":22,\"formId\":7,\"label\":\"Phone Number\",\"adminLabel\":\"\",\"isRequired\":true,\"size\":\"large\",\"errorMessage\":\"\",\"visibility\":\"visible\",\"inputs\":null,\"description\":\"\",\"allowsPrepopulate\":false,\"inputMask\":false,\"inputMaskValue\":\"\",\"inputMaskIsCustom\":false,\"maxLength\":\"\",\"inputType\":\"\",\"labelPlacement\":\"\",\"descriptionPlacement\":\"\",\"subLabelPlacement\":\"\",\"placeholder\":\"+254 xxx xxx xxx\",\"cssClass\":\"d-flex justify-content-end\",\"inputName\":\"\",\"noDuplicates\":false,\"defaultValue\":\"\",\"enableAutocomplete\":false,\"autocompleteAttribute\":\"\",\"choices\":\"\",\"conditionalLogic\":\"\",\"productField\":\"\",\"layoutGridColumnSpan\":6,\"enablePasswordInput\":\"\",\"enableEnhancedUI\":0,\"layoutGroupId\":\"93a519fa\",\"multipleFiles\":false,\"maxFiles\":\"\",\"calculationFormula\":\"\",\"calculationRounding\":\"\",\"enableCalculation\":\"\",\"disableQuantity\":false,\"displayAllCategories\":false,\"useRichTextEditor\":false,\"errors\":[],\"pageNumber\":1,\"fields\":\"\",\"displayOnly\":\"\"},{\"type\":\"email\",\"id\":21,\"formId\":7,\"label\":\"Email\",\"adminLabel\":\"\",\"isRequired\":true,\"size\":\"large\",\"errorMessage\":\"\",\"visibility\":\"visible\",\"inputs\":null,\"autocompleteAttribute\":\"email\",\"description\":\"\",\"allowsPrepopulate\":false,\"inputMask\":false,\"inputMaskValue\":\"\",\"inputMaskIsCustom\":false,\"maxLength\":\"\",\"inputType\":\"\",\"labelPlacement\":\"\",\"descriptionPlacement\":\"\",\"subLabelPlacement\":\"\",\"placeholder\":\"Email address\",\"cssClass\":\"d-flex justify-content-start\",\"inputName\":\"\",\"noDuplicates\":false,\"defaultValue\":\"\",\"enableAutocomplete\":false,\"choices\":\"\",\"conditionalLogic\":\"\",\"productField\":\"\",\"layoutGridColumnSpan\":6,\"emailConfirmEnabled\":false,\"enableEnhancedUI\":0,\"layoutGroupId\":\"87833650\",\"multipleFiles\":false,\"maxFiles\":\"\",\"calculationFormula\":\"\",\"calculationRounding\":\"\",\"enableCalculation\":\"\",\"disableQuantity\":false,\"displayAllCategories\":false,\"useRichTextEditor\":false,\"pageNumber\":1,\"fields\":\"\",\"displayOnly\":\"\"},{\"type\":\"text\",\"id\":23,\"formId\":7,\"label\":\"What is the nature of your business?\",\"adminLabel\":\"\",\"isRequired\":false,\"size\":\"large\",\"errorMessage\":\"\",\"visibility\":\"visible\",\"inputs\":null,\"description\":\"\",\"allowsPrepopulate\":false,\"inputMask\":false,\"inputMaskValue\":\"\",\"inputMaskIsCustom\":false,\"maxLength\":\"\",\"inputType\":\"\",\"labelPlacement\":\"\",\"descriptionPlacement\":\"\",\"subLabelPlacement\":\"\",\"placeholder\":\"Nature of business\",\"cssClass\":\"d-flex justify-content-end\",\"inputName\":\"\",\"noDuplicates\":false,\"defaultValue\":\"\",\"enableAutocomplete\":false,\"autocompleteAttribute\":\"\",\"choices\":\"\",\"conditionalLogic\":\"\",\"productField\":\"\",\"layoutGridColumnSpan\":6,\"enablePasswordInput\":\"\",\"enableEnhancedUI\":0,\"layoutGroupId\":\"87833650\",\"multipleFiles\":false,\"maxFiles\":\"\",\"calculationFormula\":\"\",\"calculationRounding\":\"\",\"enableCalculation\":\"\",\"disableQuantity\":false,\"displayAllCategories\":false,\"useRichTextEditor\":false,\"errors\":[],\"pageNumber\":1,\"fields\":\"\"},{\"type\":\"select\",\"id\":5,\"formId\":7,\"label\":\"What services are you interested in?\",\"adminLabel\":\"\",\"isRequired\":false,\"size\":\"large\",\"errorMessage\":\"\",\"visibility\":\"visible\",\"inputs\":null,\"choices\":[{\"text\":\"Business loans\",\"value\":\"Business loans\",\"isSelected\":false,\"price\":\"\"},{\"text\":\"eCommerce payment solution\",\"value\":\"eCommerce payment solution\",\"isSelected\":false,\"price\":\"\"},{\"text\":\"Payment solutions\",\"value\":\"Payment solutions\",\"isSelected\":false,\"price\":\"\"}],\"description\":\"\",\"allowsPrepopulate\":false,\"inputMask\":false,\"inputMaskValue\":\"\",\"inputMaskIsCustom\":false,\"maxLength\":\"\",\"inputType\":\"\",\"labelPlacement\":\"\",\"descriptionPlacement\":\"\",\"subLabelPlacement\":\"\",\"placeholder\":\"\",\"cssClass\":\"d-flex justify-content-start\",\"inputName\":\"\",\"noDuplicates\":false,\"defaultValue\":\"\",\"enableAutocomplete\":false,\"autocompleteAttribute\":\"\",\"conditionalLogic\":\"\",\"productField\":\"\",\"layoutGridColumnSpan\":6,\"enablePrice\":\"\",\"enableEnhancedUI\":0,\"layoutGroupId\":\"ed87f777\",\"multipleFiles\":false,\"maxFiles\":\"\",\"calculationFormula\":\"\",\"calculationRounding\":\"\",\"enableCalculation\":\"\",\"disableQuantity\":false,\"displayAllCategories\":false,\"useRichTextEditor\":false,\"errors\":[],\"pageNumber\":1,\"fields\":\"\",\"displayOnly\":\"\"},{\"type\":\"select\",\"id\":6,\"formId\":7,\"label\":\"Which payment solutions are you interested in?\",\"adminLabel\":\"\",\"isRequired\":false,\"size\":\"large\",\"errorMessage\":\"\",\"visibility\":\"visible\",\"inputs\":null,\"choices\":[{\"text\":\"Internet Banking\",\"value\":\"Internet Banking\",\"isSelected\":false,\"price\":\"\"},{\"text\":\"MPesa Paybill Termination\",\"value\":\"MPesa Paybill Termination\",\"isSelected\":false,\"price\":\"\"},{\"text\":\"MCo-opCash Bulk Payment Service\",\"value\":\"MCo-opCash Bulk Payment Service\",\"isSelected\":false,\"price\":\"\"},{\"text\":\"PesaLink\",\"value\":\"PesaLink\",\"isSelected\":false,\"price\":\"\"},{\"text\":\"Swift Transfers\",\"value\":\"Swift Transfers\",\"isSelected\":false,\"price\":\"\"},{\"text\":\"Real Time Gross Settlement (RTGS)\",\"value\":\"Real Time Gross Settlement (RTGS)\",\"isSelected\":false,\"price\":\"\"},{\"text\":\"MCo-op Cash\",\"value\":\"MCo-op Cash\",\"isSelected\":false,\"price\":\"\"}],\"description\":\"\",\"allowsPrepopulate\":false,\"inputMask\":false,\"inputMaskValue\":\"\",\"inputMaskIsCustom\":false,\"maxLength\":\"\",\"inputType\":\"\",\"labelPlacement\":\"\",\"descriptionPlacement\":\"\",\"subLabelPlacement\":\"\",\"placeholder\":\"\",\"cssClass\":\"d-flex justify-content-end\",\"inputName\":\"\",\"noDuplicates\":false,\"defaultValue\":\"\",\"enableAutocomplete\":false,\"autocompleteAttribute\":\"\",\"conditionalLogic\":\"\",\"productField\":\"\",\"layoutGridColumnSpan\":6,\"enablePrice\":\"\",\"enableEnhancedUI\":0,\"layoutGroupId\":\"ed87f777\",\"multipleFiles\":false,\"maxFiles\":\"\",\"calculationFormula\":\"\",\"calculationRounding\":\"\",\"enableCalculation\":\"\",\"disableQuantity\":false,\"displayAllCategories\":false,\"useRichTextEditor\":false,\"errors\":[],\"pageNumber\":1,\"fields\":\"\",\"displayOnly\":\"\"},{\"type\":\"select\",\"id\":7,\"formId\":7,\"label\":\"Amount of loan you might need\",\"adminLabel\":\"\",\"isRequired\":false,\"size\":\"large\",\"errorMessage\":\"\",\"visibility\":\"visible\",\"inputs\":null,\"choices\":[{\"text\":\"Ksh 1,000 - Ksh 100,000\",\"value\":\"Ksh 1,000 - Ksh 100,000\",\"isSelected\":false,\"price\":\"\"},{\"text\":\"Ksh 100,000 - Ksh 1,000,000\",\"value\":\"Ksh 100,000 - Ksh 1,000,000\",\"isSelected\":false,\"price\":\"\"},{\"text\":\"Ksh 1,000,000 - Ksh 10,000,000\",\"value\":\"Ksh 1,000,000 - Ksh 10,000,000\",\"isSelected\":false,\"price\":\"\"}],\"description\":\"\",\"allowsPrepopulate\":false,\"inputMask\":false,\"inputMaskValue\":\"\",\"inputMaskIsCustom\":false,\"maxLength\":\"\",\"inputType\":\"\",\"labelPlacement\":\"\",\"descriptionPlacement\":\"\",\"subLabelPlacement\":\"\",\"placeholder\":\"\",\"cssClass\":\"d-flex justify-content-start\",\"inputName\":\"\",\"noDuplicates\":false,\"defaultValue\":\"\",\"enableAutocomplete\":false,\"autocompleteAttribute\":\"\",\"conditionalLogic\":\"\",\"productField\":\"\",\"layoutGridColumnSpan\":6,\"enablePrice\":\"\",\"enableEnhancedUI\":0,\"layoutGroupId\":\"ea4fd903\",\"multipleFiles\":false,\"maxFiles\":\"\",\"calculationFormula\":\"\",\"calculationRounding\":\"\",\"enableCalculation\":\"\",\"disableQuantity\":false,\"displayAllCategories\":false,\"useRichTextEditor\":false,\"errors\":[],\"pageNumber\":1,\"fields\":\"\",\"displayOnly\":\"\"}],\"version\":\"2.6.1\",\"id\":7,\"markupVersion\":2,\"nextFieldId\":24,\"useCurrentUserAsAuthor\":true,\"postContentTemplateEnabled\":false,\"postTitleTemplateEnabled\":false,\"postTitleTemplate\":\"\",\"postContentTemplate\":\"\",\"lastPageButton\":null,\"pagination\":null,\"firstPageCssClass\":null,\"subLabelPlacement\":\"below\",\"requiredIndicator\":\"asterisk\",\"customRequiredIndicator\":\"(Required)\",\"cssClass\":\"\",\"saveButtonText\":\"Save and Continue Later\",\"limitEntries\":false,\"limitEntriesCount\":0,\"limitEntriesPeriod\":\"\",\"limitEntriesMessage\":\"\",\"scheduleForm\":\"0\",\"scheduleStart\":\"\",\"scheduleEnd\":\"\",\"schedulePendingMessage\":\"\",\"scheduleMessage\":\"\",\"requireLogin\":false,\"requireLoginMessage\":\"\",\"validationSummary\":false,\"deprecated\":\"\",\"saveEnabled\":\"\",\"enableHoneypot\":false,\"enableAnimation\":false,\"save\":{\"enabled\":false,\"button\":{\"type\":\"link\",\"text\":\"Save and Continue Later\"}},\"scheduleStartHour\":\"1\",\"scheduleStartMinute\":\"0\",\"scheduleStartAmpm\":\"am\",\"scheduleEndHour\":\"1\",\"scheduleEndMinute\":\"0\",\"scheduleEndAmpm\":\"am\",\"notifications\":{\"6273a34b50686\":{\"id\":\"6273a34b50686\",\"isActive\":true,\"to\":\"{admin_email}\",\"name\":\"Admin Notification\",\"event\":\"form_submission\",\"toType\":\"email\",\"subject\":\"New submission from {form_title}\",\"message\":\"{all_fields}\"}},\"confirmations\":{\"6273a34ba7eb2\":{\"id\":\"6273a34ba7eb2\",\"name\":\"Default Confirmation\",\"isDefault\":true,\"type\":\"message\",\"message\":\"Thanks for contacting us! We will get in touch with you shortly.\",\"url\":\"\",\"pageId\":\"\",\"queryString\":\"\"}}} 
+2022-05-08 18:57:21.734453 - DEBUG --> GF_Form_CRUD_Handler::cleanup(): Form meta json before nl2br: {"title":"non_account_holders_campaign","description":"Lead form for new MSME campaign","labelPlacement":"top_label","descriptionPlacement":"below","button":{"type":"text","text":"","imageUrl":"","width":"auto","location":"inline","layoutGridColumnSpan":6,"conditionalLogic":null,"id":"submit"},"fields":[{"type":"text","id":16,"formId":7,"label":"Full Name","adminLabel":"","isRequired":true,"size":"large","errorMessage":"","visibility":"visible","inputs":null,"description":"","allowsPrepopulate":false,"inputMask":false,"inputMaskValue":"","inputMaskIsCustom":false,"maxLength":"","inputType":"","labelPlacement":"","descriptionPlacement":"","subLabelPlacement":"","placeholder":"Enter your full name","cssClass":"d-flex justify-content-start","inputName":"","noDuplicates":false,"defaultValue":"","enableAutocomplete":false,"autocompleteAttribute":"","choices":"","conditionalLogic":"","productField":"","layoutGridColumnSpan":6,"enablePasswordInput":"","enableEnhancedUI":0,"layoutGroupId":"93a519fa","multipleFiles":false,"maxFiles":"","calculationFormula":"","calculationRounding":"","enableCalculation":"","disableQuantity":false,"displayAllCategories":false,"useRichTextEditor":false,"errors":[],"pageNumber":1,"fields":"","displayOnly":""},{"type":"text","id":22,"formId":7,"label":"Phone Number","adminLabel":"","isRequired":true,"size":"large","errorMessage":"","visibility":"visible","inputs":null,"description":"","allowsPrepopulate":false,"inputMask":false,"inputMaskValue":"","inputMaskIsCustom":false,"maxLength":"","inputType":"","labelPlacement":"","descriptionPlacement":"","subLabelPlacement":"","placeholder":"+254 xxx xxx xxx","cssClass":"d-flex justify-content-end","inputName":"","noDuplicates":false,"defaultValue":"","enableAutocomplete":false,"autocompleteAttribute":"","choices":"","conditionalLogic":"","productField":"","layoutGridColumnSpan":6,"enablePasswordInput":"","enableEnhancedUI":0,"layoutGroupId":"93a519fa","multipleFiles":false,"maxFiles":"","calculationFormula":"","calculationRounding":"","enableCalculation":"","disableQuantity":false,"displayAllCategories":false,"useRichTextEditor":false,"errors":[],"pageNumber":1,"fields":"","displayOnly":""},{"type":"email","id":21,"formId":7,"label":"Email","adminLabel":"","isRequired":true,"size":"large","errorMessage":"","visibility":"visible","inputs":null,"autocompleteAttribute":"email","description":"","allowsPrepopulate":false,"inputMask":false,"inputMaskValue":"","inputMaskIsCustom":false,"maxLength":"","inputType":"","labelPlacement":"","descriptionPlacement":"","subLabelPlacement":"","placeholder":"Email address","cssClass":"d-flex justify-content-start","inputName":"","noDuplicates":false,"defaultValue":"","enableAutocomplete":false,"choices":"","conditionalLogic":"","productField":"","layoutGridColumnSpan":6,"emailConfirmEnabled":false,"enableEnhancedUI":0,"layoutGroupId":"87833650","multipleFiles":false,"maxFiles":"","calculationFormula":"","calculationRounding":"","enableCalculation":"","disableQuantity":false,"displayAllCategories":false,"useRichTextEditor":false,"pageNumber":1,"fields":"","displayOnly":""},{"type":"text","id":23,"formId":7,"label":"What is the nature of your business?","adminLabel":"","isRequired":false,"size":"large","errorMessage":"","visibility":"visible","inputs":null,"description":"","allowsPrepopulate":false,"inputMask":false,"inputMaskValue":"","inputMaskIsCustom":false,"maxLength":"","inputType":"","labelPlacement":"","descriptionPlacement":"","subLabelPlacement":"","placeholder":"Nature of business","cssClass":"d-flex justify-content-end","inputName":"","noDuplicates":false,"defaultValue":"","enableAutocomplete":false,"autocompleteAttribute":"","choices":"","conditionalLogic":"","productField":"","layoutGridColumnSpan":6,"enablePasswordInput":"","enableEnhancedUI":0,"layoutGroupId":"87833650","multipleFiles":false,"maxFiles":"","calculationFormula":"","calculationRounding":"","enableCalculation":"","disableQuantity":false,"displayAllCategories":false,"useRichTextEditor":false,"errors":[],"pageNumber":1,"fields":""},{"type":"select","id":5,"formId":7,"label":"What services are you interested in?","adminLabel":"","isRequired":false,"size":"large","errorMessage":"","visibility":"visible","inputs":null,"choices":[{"text":"Business loans","value":"Business loans","isSelected":false,"price":""},{"text":"eCommerce payment solution","value":"eCommerce payment solution","isSelected":false,"price":""},{"text":"Payment solutions","value":"Payment solutions","isSelected":false,"price":""}],"description":"","allowsPrepopulate":false,"inputMask":false,"inputMaskValue":"","inputMaskIsCustom":false,"maxLength":"","inputType":"","labelPlacement":"","descriptionPlacement":"","subLabelPlacement":"","placeholder":"","cssClass":"d-flex justify-content-start","inputName":"","noDuplicates":false,"defaultValue":"","enableAutocomplete":false,"autocompleteAttribute":"","conditionalLogic":"","productField":"","layoutGridColumnSpan":6,"enablePrice":"","enableEnhancedUI":0,"layoutGroupId":"ed87f777","multipleFiles":false,"maxFiles":"","calculationFormula":"","calculationRounding":"","enableCalculation":"","disableQuantity":false,"displayAllCategories":false,"useRichTextEditor":false,"errors":[],"pageNumber":1,"fields":"","displayOnly":""},{"type":"select","id":6,"formId":7,"label":"Which payment solutions are you interested in?","adminLabel":"","isRequired":false,"size":"large","errorMessage":"","visibility":"visible","inputs":null,"choices":[{"text":"Internet Banking","value":"Internet Banking","isSelected":false,"price":""},{"text":"MPesa Paybill Termination","value":"MPesa Paybill Termination","isSelected":false,"price":""},{"text":"MCo-opCash Bulk Payment Service","value":"MCo-opCash Bulk Payment Service","isSelected":false,"price":""},{"text":"PesaLink","value":"PesaLink","isSelected":false,"price":""},{"text":"Swift Transfers","value":"Swift Transfers","isSelected":false,"price":""},{"text":"Real Time Gross Settlement (RTGS)","value":"Real Time Gross Settlement (RTGS)","isSelected":false,"price":""},{"text":"MCo-op Cash","value":"MCo-op Cash","isSelected":false,"price":""}],"description":"","allowsPrepopulate":false,"inputMask":false,"inputMaskValue":"","inputMaskIsCustom":false,"maxLength":"","inputType":"","labelPlacement":"","descriptionPlacement":"","subLabelPlacement":"","placeholder":"","cssClass":"d-flex justify-content-end","inputName":"","noDuplicates":false,"defaultValue":"","enableAutocomplete":false,"autocompleteAttribute":"","conditionalLogic":"","productField":"","layoutGridColumnSpan":6,"enablePrice":"","enableEnhancedUI":0,"layoutGroupId":"ed87f777","multipleFiles":false,"maxFiles":"","calculationFormula":"","calculationRounding":"","enableCalculation":"","disableQuantity":false,"displayAllCategories":false,"useRichTextEditor":false,"errors":[],"pageNumber":1,"fields":"","displayOnly":""},{"type":"select","id":7,"formId":7,"label":"Amount of loan you might need","adminLabel":"","isRequired":false,"size":"large","errorMessage":"","visibility":"visible","inputs":null,"choices":[{"text":"Ksh 1,000 - Ksh 100,000","value":"Ksh 1,000 - Ksh 100,000","isSelected":false,"price":""},{"text":"Ksh 100,000 - Ksh 1,000,000","value":"Ksh 100,000 - Ksh 1,000,000","isSelected":false,"price":""},{"text":"Ksh 1,000,000 - Ksh 10,000,000","value":"Ksh 1,000,000 - Ksh 10,000,000","isSelected":false,"price":""}],"description":"","allowsPrepopulate":false,"inputMask":false,"inputMaskValue":"","inputMaskIsCustom":false,"maxLength":"","inputType":"","labelPlacement":"","descriptionPlacement":"","subLabelPlacement":"","placeholder":"","cssClass":"d-flex justify-content-start","inputName":"","noDuplicates":false,"defaultValue":"","enableAutocomplete":false,"autocompleteAttribute":"","conditionalLogic":"","productField":"","layoutGridColumnSpan":6,"enablePrice":"","enableEnhancedUI":0,"layoutGroupId":"ea4fd903","multipleFiles":false,"maxFiles":"","calculationFormula":"","calculationRounding":"","enableCalculation":"","disableQuantity":false,"displayAllCategories":false,"useRichTextEditor":false,"errors":[],"pageNumber":1,"fields":"","displayOnly":""}],"version":"2.6.1","id":7,"markupVersion":2,"nextFieldId":24,"useCurrentUserAsAuthor":true,"postContentTemplateEnabled":false,"postTitleTemplateEnabled":false,"postTitleTemplate":"","postContentTemplate":"","lastPageButton":null,"pagination":null,"firstPageCssClass":null,"subLabelPlacement":"below","requiredIndicator":"asterisk","customRequiredIndicator":"(Required)","cssClass":"","saveButtonText":"Save and Continue Later","limitEntries":false,"limitEntriesCount":0,"limitEntriesPeriod":"","limitEntriesMessage":"","scheduleForm":"0","scheduleStart":"","scheduleEnd":"","schedulePendingMessage":"","scheduleMessage":"","requireLogin":false,"requireLoginMessage":"","validationSummary":false,"deprecated":"","saveEnabled":"","enableHoneypot":false,"enableAnimation":false,"save":{"enabled":false,"button":{"type":"link","text":"Save and Continue Later"}},"scheduleStartHour":"1","scheduleStartMinute":"0","scheduleStartAmpm":"am","scheduleEndHour":"1","scheduleEndMinute":"0","scheduleEndAmpm":"am","notifications":{"6273a34b50686":{"id":"6273a34b50686","isActive":true,"to":"{admin_email}","name":"Admin Notification","event":"form_submission","toType":"email","subject":"New submission from {form_title}","message":"{all_fields}"}},"confirmations":{"6273a34ba7eb2":{"id":"6273a34ba7eb2","name":"Default Confirmation","isDefault":true,"type":"message","message":"Thanks for contacting us! We will get in touch with you shortly.","url":"","pageId":"","queryString":""}}} 
+2022-05-08 18:57:21.734736 - DEBUG --> GF_Form_CRUD_Handler::cleanup(): Final form meta json: {"title":"non_account_holders_campaign","description":"Lead form for new MSME campaign","labelPlacement":"top_label","descriptionPlacement":"below","button":{"type":"text","text":"","imageUrl":"","width":"auto","location":"inline","layoutGridColumnSpan":6,"conditionalLogic":null,"id":"submit"},"fields":[{"type":"text","id":16,"formId":7,"label":"Full Name","adminLabel":"","isRequired":true,"size":"large","errorMessage":"","visibility":"visible","inputs":null,"description":"","allowsPrepopulate":false,"inputMask":false,"inputMaskValue":"","inputMaskIsCustom":false,"maxLength":"","inputType":"","labelPlacement":"","descriptionPlacement":"","subLabelPlacement":"","placeholder":"Enter your full name","cssClass":"d-flex justify-content-start","inputName":"","noDuplicates":false,"defaultValue":"","enableAutocomplete":false,"autocompleteAttribute":"","choices":"","conditionalLogic":"","productField":"","layoutGridColumnSpan":6,"enablePasswordInput":"","enableEnhancedUI":0,"layoutGroupId":"93a519fa","multipleFiles":false,"maxFiles":"","calculationFormula":"","calculationRounding":"","enableCalculation":"","disableQuantity":false,"displayAllCategories":false,"useRichTextEditor":false,"errors":[],"pageNumber":1,"fields":"","displayOnly":""},{"type":"text","id":22,"formId":7,"label":"Phone Number","adminLabel":"","isRequired":true,"size":"large","errorMessage":"","visibility":"visible","inputs":null,"description":"","allowsPrepopulate":false,"inputMask":false,"inputMaskValue":"","inputMaskIsCustom":false,"maxLength":"","inputType":"","labelPlacement":"","descriptionPlacement":"","subLabelPlacement":"","placeholder":"+254 xxx xxx xxx","cssClass":"d-flex justify-content-end","inputName":"","noDuplicates":false,"defaultValue":"","enableAutocomplete":false,"autocompleteAttribute":"","choices":"","conditionalLogic":"","productField":"","layoutGridColumnSpan":6,"enablePasswordInput":"","enableEnhancedUI":0,"layoutGroupId":"93a519fa","multipleFiles":false,"maxFiles":"","calculationFormula":"","calculationRounding":"","enableCalculation":"","disableQuantity":false,"displayAllCategories":false,"useRichTextEditor":false,"errors":[],"pageNumber":1,"fields":"","displayOnly":""},{"type":"email","id":21,"formId":7,"label":"Email","adminLabel":"","isRequired":true,"size":"large","errorMessage":"","visibility":"visible","inputs":null,"autocompleteAttribute":"email","description":"","allowsPrepopulate":false,"inputMask":false,"inputMaskValue":"","inputMaskIsCustom":false,"maxLength":"","inputType":"","labelPlacement":"","descriptionPlacement":"","subLabelPlacement":"","placeholder":"Email address","cssClass":"d-flex justify-content-start","inputName":"","noDuplicates":false,"defaultValue":"","enableAutocomplete":false,"choices":"","conditionalLogic":"","productField":"","layoutGridColumnSpan":6,"emailConfirmEnabled":false,"enableEnhancedUI":0,"layoutGroupId":"87833650","multipleFiles":false,"maxFiles":"","calculationFormula":"","calculationRounding":"","enableCalculation":"","disableQuantity":false,"displayAllCategories":false,"useRichTextEditor":false,"pageNumber":1,"fields":"","displayOnly":""},{"type":"text","id":23,"formId":7,"label":"What is the nature of your business?","adminLabel":"","isRequired":false,"size":"large","errorMessage":"","visibility":"visible","inputs":null,"description":"","allowsPrepopulate":false,"inputMask":false,"inputMaskValue":"","inputMaskIsCustom":false,"maxLength":"","inputType":"","labelPlacement":"","descriptionPlacement":"","subLabelPlacement":"","placeholder":"Nature of business","cssClass":"d-flex justify-content-end","inputName":"","noDuplicates":false,"defaultValue":"","enableAutocomplete":false,"autocompleteAttribute":"","choices":"","conditionalLogic":"","productField":"","layoutGridColumnSpan":6,"enablePasswordInput":"","enableEnhancedUI":0,"layoutGroupId":"87833650","multipleFiles":false,"maxFiles":"","calculationFormula":"","calculationRounding":"","enableCalculation":"","disableQuantity":false,"displayAllCategories":false,"useRichTextEditor":false,"errors":[],"pageNumber":1,"fields":""},{"type":"select","id":5,"formId":7,"label":"What services are you interested in?","adminLabel":"","isRequired":false,"size":"large","errorMessage":"","visibility":"visible","inputs":null,"choices":[{"text":"Business loans","value":"Business loans","isSelected":false,"price":""},{"text":"eCommerce payment solution","value":"eCommerce payment solution","isSelected":false,"price":""},{"text":"Payment solutions","value":"Payment solutions","isSelected":false,"price":""}],"description":"","allowsPrepopulate":false,"inputMask":false,"inputMaskValue":"","inputMaskIsCustom":false,"maxLength":"","inputType":"","labelPlacement":"","descriptionPlacement":"","subLabelPlacement":"","placeholder":"","cssClass":"d-flex justify-content-start","inputName":"","noDuplicates":false,"defaultValue":"","enableAutocomplete":false,"autocompleteAttribute":"","conditionalLogic":"","productField":"","layoutGridColumnSpan":6,"enablePrice":"","enableEnhancedUI":0,"layoutGroupId":"ed87f777","multipleFiles":false,"maxFiles":"","calculationFormula":"","calculationRounding":"","enableCalculation":"","disableQuantity":false,"displayAllCategories":false,"useRichTextEditor":false,"errors":[],"pageNumber":1,"fields":"","displayOnly":""},{"type":"select","id":6,"formId":7,"label":"Which payment solutions are you interested in?","adminLabel":"","isRequired":false,"size":"large","errorMessage":"","visibility":"visible","inputs":null,"choices":[{"text":"Internet Banking","value":"Internet Banking","isSelected":false,"price":""},{"text":"MPesa Paybill Termination","value":"MPesa Paybill Termination","isSelected":false,"price":""},{"text":"MCo-opCash Bulk Payment Service","value":"MCo-opCash Bulk Payment Service","isSelected":false,"price":""},{"text":"PesaLink","value":"PesaLink","isSelected":false,"price":""},{"text":"Swift Transfers","value":"Swift Transfers","isSelected":false,"price":""},{"text":"Real Time Gross Settlement (RTGS)","value":"Real Time Gross Settlement (RTGS)","isSelected":false,"price":""},{"text":"MCo-op Cash","value":"MCo-op Cash","isSelected":false,"price":""}],"description":"","allowsPrepopulate":false,"inputMask":false,"inputMaskValue":"","inputMaskIsCustom":false,"maxLength":"","inputType":"","labelPlacement":"","descriptionPlacement":"","subLabelPlacement":"","placeholder":"","cssClass":"d-flex justify-content-end","inputName":"","noDuplicates":false,"defaultValue":"","enableAutocomplete":false,"autocompleteAttribute":"","conditionalLogic":"","productField":"","layoutGridColumnSpan":6,"enablePrice":"","enableEnhancedUI":0,"layoutGroupId":"ed87f777","multipleFiles":false,"maxFiles":"","calculationFormula":"","calculationRounding":"","enableCalculation":"","disableQuantity":false,"displayAllCategories":false,"useRichTextEditor":false,"errors":[],"pageNumber":1,"fields":"","displayOnly":""},{"type":"select","id":7,"formId":7,"label":"Amount of loan you might need","adminLabel":"","isRequired":false,"size":"large","errorMessage":"","visibility":"visible","inputs":null,"choices":[{"text":"Ksh 1,000 - Ksh 100,000","value":"Ksh 1,000 - Ksh 100,000","isSelected":false,"price":""},{"text":"Ksh 100,000 - Ksh 1,000,000","value":"Ksh 100,000 - Ksh 1,000,000","isSelected":false,"price":""},{"text":"Ksh 1,000,000 - Ksh 10,000,000","value":"Ksh 1,000,000 - Ksh 10,000,000","isSelected":false,"price":""}],"description":"","allowsPrepopulate":false,"inputMask":false,"inputMaskValue":"","inputMaskIsCustom":false,"maxLength":"","inputType":"","labelPlacement":"","descriptionPlacement":"","subLabelPlacement":"","placeholder":"","cssClass":"d-flex justify-content-start","inputName":"","noDuplicates":false,"defaultValue":"","enableAutocomplete":false,"autocompleteAttribute":"","conditionalLogic":"","productField":"","layoutGridColumnSpan":6,"enablePrice":"","enableEnhancedUI":0,"layoutGroupId":"ea4fd903","multipleFiles":false,"maxFiles":"","calculationFormula":"","calculationRounding":"","enableCalculation":"","disableQuantity":false,"displayAllCategories":false,"useRichTextEditor":false,"errors":[],"pageNumber":1,"fields":"","displayOnly":""}],"version":"2.6.1","id":7,"markupVersion":2,"nextFieldId":24,"useCurrentUserAsAuthor":true,"postContentTemplateEnabled":false,"postTitleTemplateEnabled":false,"postTitleTemplate":"","postContentTemplate":"","lastPageButton":null,"pagination":null,"firstPageCssClass":null,"subLabelPlacement":"below","requiredIndicator":"asterisk","customRequiredIndicator":"(Required)","cssClass":"","saveButtonText":"Save and Continue Later","limitEntries":false,"limitEntriesCount":0,"limitEntriesPeriod":"","limitEntriesMessage":"","scheduleForm":"0","scheduleStart":"","scheduleEnd":"","schedulePendingMessage":"","scheduleMessage":"","requireLogin":false,"requireLoginMessage":"","validationSummary":false,"deprecated":"","saveEnabled":"","enableHoneypot":false,"enableAnimation":false,"save":{"enabled":false,"button":{"type":"link","text":"Save and Continue Later"}},"scheduleStartHour":"1","scheduleStartMinute":"0","scheduleStartAmpm":"am","scheduleEndHour":"1","scheduleEndMinute":"0","scheduleEndAmpm":"am","notifications":{"6273a34b50686":{"id":"6273a34b50686","isActive":true,"to":"{admin_email}","name":"Admin Notification","event":"form_submission","toType":"email","subject":"New submission from {form_title}","message":"{all_fields}"}},"confirmations":{"6273a34ba7eb2":{"id":"6273a34ba7eb2","name":"Default Confirmation","isDefault":true,"type":"message","message":"Thanks for contacting us! We will get in touch with you shortly.","url":"","pageId":"","queryString":""}}} 
+2022-05-08 18:57:21.740581 - DEBUG --> GF_Form_CRUD_Handler::cleanup(): Deleted fields  
+2022-05-08 18:57:21.740919 - DEBUG --> GF_Form_CRUD_Handler::cleanup(): Form meta => Array
+(
+    [title] => non_account_holders_campaign
+    [description] => Lead form for new MSME campaign
+    [labelPlacement] => top_label
+    [descriptionPlacement] => below
+    [button] => Array
+        (
+            [type] => text
+            [text] => 
+            [imageUrl] => 
+            [width] => auto
+            [location] => inline
+            [layoutGridColumnSpan] => 6
+            [conditionalLogic] => 
+            [id] => submit
+        )
+
+    [fields] => Array
+        (
+            [0] => GF_Field_Text Object
+                (
+                    [type] => text
+                    [_is_entry_detail:GF_Field:private] => 
+                    [_context_properties:GF_Field:private] => Array
+                        (
+                        )
+
+                    [_merge_tag_modifiers:GF_Field:private] => Array
+                        (
+                        )
+
+                    [_supports_state_validation:protected] => 
+                    [id] => 16
+                    [formId] => 7
+                    [label] => Full Name
+                    [adminLabel] => 
+                    [isRequired] => 1
+                    [size] => large
+                    [errorMessage] => 
+                    [visibility] => visible
+                    [inputs] => 
+                    [description] => 
+                    [allowsPrepopulate] => 
+                    [inputMask] => 
+                    [inputMaskValue] => 
+                    [inputMaskIsCustom] => 
+                    [maxLength] => 
+                    [inputType] => 
+                    [labelPlacement] => 
+                    [descriptionPlacement] => 
+                    [subLabelPlacement] => 
+                    [placeholder] => Enter your full name
+                    [cssClass] => d-flex justify-content-start
+                    [inputName] => 
+                    [noDuplicates] => 
+                    [defaultValue] => 
+                    [enableAutocomplete] => 
+                    [autocompleteAttribute] => 
+                    [choices] => 
+                    [conditionalLogic] => 
+                    [productField] => 
+                    [layoutGridColumnSpan] => 6
+                    [enablePasswordInput] => 
+                    [enableEnhancedUI] => 0
+                    [layoutGroupId] => 93a519fa
+                    [multipleFiles] => 
+                    [maxFiles] => 
+                    [calculationFormula] => 
+                    [calculationRounding] => 
+                    [enableCalculation] => 
+                    [disableQuantity] => 
+                    [displayAllCategories] => 
+                    [useRichTextEditor] => 
+                    [errors] => Array
+                        (
+                        )
+
+                    [pageNumber] => 1
+                    [fields] => 
+                    [displayOnly] => 
+                )
+
+            [1] => GF_Field_Text Object
+                (
+                    [type] => text
+                    [_is_entry_detail:GF_Field:private] => 
+                    [_context_properties:GF_Field:private] => Array
+                        (
+                        )
+
+                    [_merge_tag_modifiers:GF_Field:private] => Array
+                        (
+                        )
+
+                    [_supports_state_validation:protected] => 
+                    [id] => 22
+                    [formId] => 7
+                    [label] => Phone Number
+                    [adminLabel] => 
+                    [isRequired] => 1
+                    [size] => large
+                    [errorMessage] => 
+                    [visibility] => visible
+                    [inputs] => 
+                    [description] => 
+                    [allowsPrepopulate] => 
+                    [inputMask] => 
+                    [inputMaskValue] => 
+                    [inputMaskIsCustom] => 
+                    [maxLength] => 
+                    [inputType] => 
+                    [labelPlacement] => 
+                    [descriptionPlacement] => 
+                    [subLabelPlacement] => 
+                    [placeholder] => +254 xxx xxx xxx
+                    [cssClass] => d-flex justify-content-end
+                    [inputName] => 
+                    [noDuplicates] => 
+                    [defaultValue] => 
+                    [enableAutocomplete] => 
+                    [autocompleteAttribute] => 
+                    [choices] => 
+                    [conditionalLogic] => 
+                    [productField] => 
+                    [layoutGridColumnSpan] => 6
+                    [enablePasswordInput] => 
+                    [enableEnhancedUI] => 0
+                    [layoutGroupId] => 93a519fa
+                    [multipleFiles] => 
+                    [maxFiles] => 
+                    [calculationFormula] => 
+                    [calculationRounding] => 
+                    [enableCalculation] => 
+                    [disableQuantity] => 
+                    [displayAllCategories] => 
+                    [useRichTextEditor] => 
+                    [errors] => Array
+                        (
+                        )
+
+                    [pageNumber] => 1
+                    [fields] => 
+                    [displayOnly] => 
+                )
+
+            [2] => GF_Field_Email Object
+                (
+                    [type] => email
+                    [_is_entry_detail:GF_Field:private] => 
+                    [_context_properties:GF_Field:private] => Array
+                        (
+                        )
+
+                    [_merge_tag_modifiers:GF_Field:private] => Array
+                        (
+                        )
+
+                    [_supports_state_validation:protected] => 
+                    [id] => 21
+                    [formId] => 7
+                    [label] => Email
+                    [adminLabel] => 
+                    [isRequired] => 1
+                    [size] => large
+                    [errorMessage] => 
+                    [visibility] => visible
+                    [inputs] => 
+                    [autocompleteAttribute] => email
+                    [description] => 
+                    [allowsPrepopulate] => 
+                    [inputMask] => 
+                    [inputMaskValue] => 
+                    [inputMaskIsCustom] => 
+                    [maxLength] => 
+                    [inputType] => 
+                    [labelPlacement] => 
+                    [descriptionPlacement] => 
+                    [subLabelPlacement] => 
+                    [placeholder] => Email address
+                    [cssClass] => d-flex justify-content-start
+                    [inputName] => 
+                    [noDuplicates] => 
+                    [defaultValue] => 
+                    [enableAutocomplete] => 
+                    [choices] => 
+                    [conditionalLogic] => 
+                    [productField] => 
+                    [layoutGridColumnSpan] => 6
+                    [emailConfirmEnabled] => 
+                    [enableEnhancedUI] => 0
+                    [layoutGroupId] => 87833650
+                    [multipleFiles] => 
+                    [maxFiles] => 
+                    [calculationFormula] => 
+                    [calculationRounding] => 
+                    [enableCalculation] => 
+                    [disableQuantity] => 
+                    [displayAllCategories] => 
+                    [useRichTextEditor] => 
+                    [pageNumber] => 1
+                    [fields] => 
+                    [displayOnly] => 
+                )
+
+            [3] => GF_Field_Text Object
+                (
+                    [type] => text
+                    [_is_entry_detail:GF_Field:private] => 
+                    [_context_properties:GF_Field:private] => Array
+                        (
+                        )
+
+                    [_merge_tag_modifiers:GF_Field:private] => Array
+                        (
+                        )
+
+                    [_supports_state_validation:protected] => 
+                    [id] => 23
+                    [formId] => 7
+                    [label] => What is the nature of your business?
+                    [adminLabel] => 
+                    [isRequired] => 
+                    [size] => large
+                    [errorMessage] => 
+                    [visibility] => visible
+                    [inputs] => 
+                    [description] => 
+                    [allowsPrepopulate] => 
+                    [inputMask] => 
+                    [inputMaskValue] => 
+                    [inputMaskIsCustom] => 
+                    [maxLength] => 
+                    [inputType] => 
+                    [labelPlacement] => 
+                    [descriptionPlacement] => 
+                    [subLabelPlacement] => 
+                    [placeholder] => Nature of business
+                    [cssClass] => d-flex justify-content-end
+                    [inputName] => 
+                    [noDuplicates] => 
+                    [defaultValue] => 
+                    [enableAutocomplete] => 
+                    [autocompleteAttribute] => 
+                    [choices] => 
+                    [conditionalLogic] => 
+                    [productField] => 
+                    [layoutGridColumnSpan] => 6
+                    [enablePasswordInput] => 
+                    [enableEnhancedUI] => 0
+                    [layoutGroupId] => 87833650
+                    [multipleFiles] => 
+                    [maxFiles] => 
+                    [calculationFormula] => 
+                    [calculationRounding] => 
+                    [enableCalculation] => 
+                    [disableQuantity] => 
+                    [displayAllCategories] => 
+                    [useRichTextEditor] => 
+                    [errors] => Array
+                        (
+                        )
+
+                    [pageNumber] => 1
+                    [fields] => 
+                )
+
+            [4] => GF_Field_Select Object
+                (
+                    [type] => select
+                    [_supports_state_validation:protected] => 1
+                    [_is_entry_detail:GF_Field:private] => 
+                    [_context_properties:GF_Field:private] => Array
+                        (
+                        )
+
+                    [_merge_tag_modifiers:GF_Field:private] => Array
+                        (
+                        )
+
+                    [id] => 5
+                    [formId] => 7
+                    [label] => What services are you interested in?
+                    [adminLabel] => 
+                    [isRequired] => 
+                    [size] => large
+                    [errorMessage] => 
+                    [visibility] => visible
+                    [inputs] => 
+                    [choices] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => Business loans
+                                    [value] => Business loans
+                                    [isSelected] => 
+                                    [price] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [text] => eCommerce payment solution
+                                    [value] => eCommerce payment solution
+                                    [isSelected] => 
+                                    [price] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [text] => Payment solutions
+                                    [value] => Payment solutions
+                                    [isSelected] => 
+                                    [price] => 
+                                )
+
+                        )
+
+                    [description] => 
+                    [allowsPrepopulate] => 
+                    [inputMask] => 
+                    [inputMaskValue] => 
+                    [inputMaskIsCustom] => 
+                    [maxLength] => 
+                    [inputType] => 
+                    [labelPlacement] => 
+                    [descriptionPlacement] => 
+                    [subLabelPlacement] => 
+                    [placeholder] => 
+                    [cssClass] => d-flex justify-content-start
+                    [inputName] => 
+                    [noDuplicates] => 
+                    [defaultValue] => 
+                    [enableAutocomplete] => 
+                    [autocompleteAttribute] => 
+                    [conditionalLogic] => 
+                    [productField] => 
+                    [layoutGridColumnSpan] => 6
+                    [enablePrice] => 
+                    [enableEnhancedUI] => 0
+                    [layoutGroupId] => ed87f777
+                    [multipleFiles] => 
+                    [maxFiles] => 
+                    [calculationFormula] => 
+                    [calculationRounding] => 
+                    [enableCalculation] => 
+                    [disableQuantity] => 
+                    [displayAllCategories] => 
+                    [useRichTextEditor] => 
+                    [errors] => Array
+                        (
+                        )
+
+                    [pageNumber] => 1
+                    [fields] => 
+                    [displayOnly] => 
+                )
+
+            [5] => GF_Field_Select Object
+                (
+                    [type] => select
+                    [_supports_state_validation:protected] => 1
+                    [_is_entry_detail:GF_Field:private] => 
+                    [_context_properties:GF_Field:private] => Array
+                        (
+                        )
+
+                    [_merge_tag_modifiers:GF_Field:private] => Array
+                        (
+                        )
+
+                    [id] => 6
+                    [formId] => 7
+                    [label] => Which payment solutions are you interested in?
+                    [adminLabel] => 
+                    [isRequired] => 
+                    [size] => large
+                    [errorMessage] => 
+                    [visibility] => visible
+                    [inputs] => 
+                    [choices] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => Internet Banking
+                                    [value] => Internet Banking
+                                    [isSelected] => 
+                                    [price] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [text] => MPesa Paybill Termination
+                                    [value] => MPesa Paybill Termination
+                                    [isSelected] => 
+                                    [price] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [text] => MCo-opCash Bulk Payment Service
+                                    [value] => MCo-opCash Bulk Payment Service
+                                    [isSelected] => 
+                                    [price] => 
+                                )
+
+                            [3] => Array
+                                (
+                                    [text] => PesaLink
+                                    [value] => PesaLink
+                                    [isSelected] => 
+                                    [price] => 
+                                )
+
+                            [4] => Array
+                                (
+                                    [text] => Swift Transfers
+                                    [value] => Swift Transfers
+                                    [isSelected] => 
+                                    [price] => 
+                                )
+
+                            [5] => Array
+                                (
+                                    [text] => Real Time Gross Settlement (RTGS)
+                                    [value] => Real Time Gross Settlement (RTGS)
+                                    [isSelected] => 
+                                    [price] => 
+                                )
+
+                            [6] => Array
+                                (
+                                    [text] => MCo-op Cash
+                                    [value] => MCo-op Cash
+                                    [isSelected] => 
+                                    [price] => 
+                                )
+
+                        )
+
+                    [description] => 
+                    [allowsPrepopulate] => 
+                    [inputMask] => 
+                    [inputMaskValue] => 
+                    [inputMaskIsCustom] => 
+                    [maxLength] => 
+                    [inputType] => 
+                    [labelPlacement] => 
+                    [descriptionPlacement] => 
+                    [subLabelPlacement] => 
+                    [placeholder] => 
+                    [cssClass] => d-flex justify-content-end
+                    [inputName] => 
+                    [noDuplicates] => 
+                    [defaultValue] => 
+                    [enableAutocomplete] => 
+                    [autocompleteAttribute] => 
+                    [conditionalLogic] => 
+                    [productField] => 
+                    [layoutGridColumnSpan] => 6
+                    [enablePrice] => 
+                    [enableEnhancedUI] => 0
+                    [layoutGroupId] => ed87f777
+                    [multipleFiles] => 
+                    [maxFiles] => 
+                    [calculationFormula] => 
+                    [calculationRounding] => 
+                    [enableCalculation] => 
+                    [disableQuantity] => 
+                    [displayAllCategories] => 
+                    [useRichTextEditor] => 
+                    [errors] => Array
+                        (
+                        )
+
+                    [pageNumber] => 1
+                    [fields] => 
+                    [displayOnly] => 
+                )
+
+            [6] => GF_Field_Select Object
+                (
+                    [type] => select
+                    [_supports_state_validation:protected] => 1
+                    [_is_entry_detail:GF_Field:private] => 
+                    [_context_properties:GF_Field:private] => Array
+                        (
+                        )
+
+                    [_merge_tag_modifiers:GF_Field:private] => Array
+                        (
+                        )
+
+                    [id] => 7
+                    [formId] => 7
+                    [label] => Amount of loan you might need
+                    [adminLabel] => 
+                    [isRequired] => 
+                    [size] => large
+                    [errorMessage] => 
+                    [visibility] => visible
+                    [inputs] => 
+                    [choices] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => Ksh 1,000 - Ksh 100,000
+                                    [value] => Ksh 1,000 - Ksh 100,000
+                                    [isSelected] => 
+                                    [price] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [text] => Ksh 100,000 - Ksh 1,000,000
+                                    [value] => Ksh 100,000 - Ksh 1,000,000
+                                    [isSelected] => 
+                                    [price] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [text] => Ksh 1,000,000 - Ksh 10,000,000
+                                    [value] => Ksh 1,000,000 - Ksh 10,000,000
+                                    [isSelected] => 
+                                    [price] => 
+                                )
+
+                        )
+
+                    [description] => 
+                    [allowsPrepopulate] => 
+                    [inputMask] => 
+                    [inputMaskValue] => 
+                    [inputMaskIsCustom] => 
+                    [maxLength] => 
+                    [inputType] => 
+                    [labelPlacement] => 
+                    [descriptionPlacement] => 
+                    [subLabelPlacement] => 
+                    [placeholder] => 
+                    [cssClass] => d-flex justify-content-start
+                    [inputName] => 
+                    [noDuplicates] => 
+                    [defaultValue] => 
+                    [enableAutocomplete] => 
+                    [autocompleteAttribute] => 
+                    [conditionalLogic] => 
+                    [productField] => 
+                    [layoutGridColumnSpan] => 6
+                    [enablePrice] => 
+                    [enableEnhancedUI] => 0
+                    [layoutGroupId] => ea4fd903
+                    [multipleFiles] => 
+                    [maxFiles] => 
+                    [calculationFormula] => 
+                    [calculationRounding] => 
+                    [enableCalculation] => 
+                    [disableQuantity] => 
+                    [displayAllCategories] => 
+                    [useRichTextEditor] => 
+                    [errors] => Array
+                        (
+                        )
+
+                    [pageNumber] => 1
+                    [fields] => 
+                    [displayOnly] => 
+                )
+
+        )
+
+    [version] => 2.6.1
+    [id] => 7
+    [markupVersion] => 2
+    [nextFieldId] => 24
+    [useCurrentUserAsAuthor] => 1
+    [postContentTemplateEnabled] => 
+    [postTitleTemplateEnabled] => 
+    [postTitleTemplate] => 
+    [postContentTemplate] => 
+    [lastPageButton] => 
+    [pagination] => 
+    [firstPageCssClass] => 
+    [subLabelPlacement] => below
+    [requiredIndicator] => asterisk
+    [customRequiredIndicator] => (Required)
+    [cssClass] => 
+    [saveButtonText] => Save and Continue Later
+    [limitEntries] => 
+    [limitEntriesCount] => 
+    [limitEntriesPeriod] => 
+    [limitEntriesMessage] => 
+    [scheduleForm] => 
+    [scheduleStart] => 
+    [scheduleEnd] => 
+    [schedulePendingMessage] => 
+    [scheduleMessage] => 
+    [requireLogin] => 
+    [requireLoginMessage] => 
+    [validationSummary] => 
+    [deprecated] => 
+    [saveEnabled] => 
+    [enableHoneypot] => 
+    [enableAnimation] => 
+    [save] => Array
+        (
+            [enabled] => 
+            [button] => Array
+                (
+                    [type] => link
+                    [text] => Save and Continue Later
+                )
+
+        )
+
+    [scheduleStartHour] => 
+    [scheduleStartMinute] => 
+    [scheduleStartAmpm] => 
+    [scheduleEndHour] => 
+    [scheduleEndMinute] => 
+    [scheduleEndAmpm] => 
+    [notifications] => Array
+        (
+            [6273a34b50686] => Array
+                (
+                    [id] => 6273a34b50686
+                    [isActive] => 1
+                    [to] => {admin_email}
+                    [name] => Admin Notification
+                    [event] => form_submission
+                    [toType] => email
+                    [subject] => New submission from {form_title}
+                    [message] => {all_fields}
+                )
+
+        )
+
+    [confirmations] => Array
+        (
+            [6273a34ba7eb2] => Array
+                (
+                    [id] => 6273a34ba7eb2
+                    [name] => Default Confirmation
+                    [isDefault] => 1
+                    [type] => message
+                    [message] => Thanks for contacting us! We will get in touch with you shortly.
+                    [url] => 
+                    [pageId] => 
+                    [queryString] => 
+                )
+
+        )
+
+)
+ 
+2022-05-08 18:57:21.742166 - DEBUG --> GFFormsModel::trim_form_meta_values(): Starting. 
+2022-05-08 18:57:21.742455 - DEBUG --> GFFormsModel::trim_conditional_logic_values(): Starting. 
+2022-05-08 19:18:28.162761 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#7) submission. 
+2022-05-08 19:18:28.177445 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2022-05-08 19:18:28.178800 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2022-05-08 19:18:28.178960 - DEBUG --> GFFormDisplay::process_form(): Submission is valid. Moving forward. 
+2022-05-08 19:18:28.179157 - DEBUG --> GFFormsModel::save_entry(): Saving entry. 
+2022-05-08 19:18:28.660207 - DEBUG --> GFFormsModel::save_entry(): Entry record created in the database. ID: 422. 
+2022-05-08 19:18:28.798289 - DEBUG --> GFFormsModel::save_entry(): Saving entry fields. 
+2022-05-08 19:18:28.798635 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Full Name(#16 - text). 
+2022-05-08 19:18:28.799062 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Phone Number(#22 - text). 
+2022-05-08 19:18:28.799611 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Email(#21 - email). 
+2022-05-08 19:18:28.800179 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What is the nature of your business?(#23 - text). 
+2022-05-08 19:18:28.800715 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What services are you interested in?(#5 - select). 
+2022-05-08 19:18:28.801249 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Which payment solutions are you interested in?(#6 - select). 
+2022-05-08 19:18:28.801772 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Amount of loan you might need(#7 - select). 
+2022-05-08 19:18:29.163021 - DEBUG --> GFFormsModel::save_entry(): Finished saving entry fields. 
+2022-05-08 19:18:29.163753 - DEBUG --> GFCommon::is_spam_entry(): Is submission considered spam? No. 
+2022-05-08 19:18:29.164309 - DEBUG --> GF_Background_Process::dispatch(): Running for gf_feed_processor. 
+2022-05-08 19:18:29.166374 - DEBUG --> GF_Background_Process::dispatch(): Unable to dispatch tasks to Admin Ajax: Nothing left to process 
+2022-05-08 19:18:29.166884 - DEBUG --> GFFormsModel::create_post(): Starting. 
+2022-05-08 19:18:29.167467 - DEBUG --> GFFormsModel::create_post(): Stopping. The form doesn't have any post fields. 
+2022-05-08 19:18:29.167714 - DEBUG --> GFAPI::send_notifications(): Gathering notifications for form_submission event for entry #422. 
+2022-05-08 19:18:29.167977 - DEBUG --> GFCommon::send_notifications(): Processing notifications for form_submission event for entry #422: Array
+(
+    [0] => 6273a34b50686
+)
+
+(only active/applicable notifications are sent) 
+2022-05-08 19:18:29.168201 - DEBUG --> GFCommon::send_notification(): Starting to process notification (#6273a34b50686 - Admin Notification). 
+2022-05-08 19:18:29.180982 - DEBUG --> GFCommon::send_email(): Sending email via wp_mail(). 
+2022-05-08 19:18:29.181297 - DEBUG --> Array
+(
+    [to] => godwill@belvadigital.com
+    [subject] => New submission from non_account_holders_campaign
+    [message] => <html>
+	<head>
+		<title>New submission from non_account_holders_campaign</title>
+	</head>
+	<body>
+		<table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Full Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">daisy mitti</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Phone Number</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">0799448090</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:daisymitti@gmail.com'>daisymitti@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What is the nature of your business?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Techies</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What services are you interested in?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">eCommerce payment solution</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Which payment solutions are you interested in?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Swift Transfers</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Amount of loan you might need</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Ksh 1,000,000 - Ksh 10,000,000</font>
+		                                    </td>
+		                               </tr>
+		                               </table>
+                        </td>
+                   </tr>
+               </table>
+	</body>
+</html>
+    [headers] => Array
+        (
+            [From] => From: "godwill@belvadigital.com" <godwill@belvadigital.com>
+            [Content-type] => Content-type: text/html; charset=UTF-8
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [abort_email] => 
+)
+ 
+2022-05-08 19:18:33.639343 - DEBUG --> GFCommon::send_email(): Result from wp_mail():  
+2022-05-08 19:18:33.639671 - ERROR --> GFCommon::send_email(): WordPress was unable to send the notification email (#6273a34b50686 - Admin Notification) for entry #422 to the sending server. 
+2022-05-08 19:18:33.639892 - DEBUG --> GFCommon::send_email(): The WordPress phpmailer_init hook has been detected, usually used by SMTP plugins. It can alter the email setup/content or sending server, and impact the notification deliverability. 
+2022-05-08 19:18:33.805449 - DEBUG --> GFFormDisplay::handle_confirmation(): Preparing confirmation (#6273a34ba7eb2 - Default Confirmation). 
+2022-05-08 19:18:33.805744 - DEBUG --> GFFormDisplay::handle_confirmation(): Sending confirmation => <div id='gform_confirmation_wrapper_7' class='gform_confirmation_wrapper '><div id='gform_confirmation_message_7' class='gform_confirmation_message_7 gform_confirmation_message'>Thanks for contacting us! We will get in touch with you shortly.</div></div> 
+2022-05-08 19:18:37.259983 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #7. entry #422. 
+2022-05-08 19:18:37.287966 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #7. entry #422. 
+2022-05-08 19:18:37.292511 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #7. entry #422. 
+2022-05-08 19:19:28.935678 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (7) AND `t1`.`status` = 'active') ORDER BY `t1`.`id` DESC LIMIT 20 
+2022-05-08 19:21:18.136233 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#5) submission. 
+2022-05-08 19:21:18.140523 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2022-05-08 19:21:18.142144 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2022-05-08 19:21:18.142330 - DEBUG --> GFFormDisplay::process_form(): Submission is valid. Moving forward. 
+2022-05-08 19:21:18.142564 - DEBUG --> GFFormsModel::save_entry(): Saving entry. 
+2022-05-08 19:21:18.931021 - DEBUG --> GFFormsModel::save_entry(): Entry record created in the database. ID: 423. 
+2022-05-08 19:21:18.933243 - DEBUG --> GFFormsModel::save_entry(): Saving entry fields. 
+2022-05-08 19:21:18.934005 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Full Name(#16 - text). 
+2022-05-08 19:21:18.934576 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Phone Number(#22 - text). 
+2022-05-08 19:21:18.935134 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Email(#21 - email). 
+2022-05-08 19:21:18.935925 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What is the nature of your business?(#23 - text). 
+2022-05-08 19:21:18.938034 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What services are you interested in?(#5 - select). 
+2022-05-08 19:21:18.939265 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Which payment solutions are you interested in?(#6 - select). 
+2022-05-08 19:21:18.940546 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Amount of loan you might need(#7 - select). 
+2022-05-08 19:21:19.559740 - DEBUG --> GFFormsModel::save_entry(): Finished saving entry fields. 
+2022-05-08 19:21:19.560791 - DEBUG --> GFCommon::is_spam_entry(): Is submission considered spam? No. 
+2022-05-08 19:21:19.561192 - DEBUG --> GF_Background_Process::dispatch(): Running for gf_feed_processor. 
+2022-05-08 19:21:19.562982 - DEBUG --> GF_Background_Process::dispatch(): Unable to dispatch tasks to Admin Ajax: Nothing left to process 
+2022-05-08 19:21:19.563350 - DEBUG --> GFFormsModel::create_post(): Starting. 
+2022-05-08 19:21:19.563760 - DEBUG --> GFFormsModel::create_post(): Stopping. The form doesn't have any post fields. 
+2022-05-08 19:21:19.563990 - DEBUG --> GFAPI::send_notifications(): Gathering notifications for form_submission event for entry #423. 
+2022-05-08 19:21:19.564245 - DEBUG --> GFCommon::send_notifications(): Processing notifications for form_submission event for entry #423: Array
+(
+    [0] => 6273a34b50686
+)
+
+(only active/applicable notifications are sent) 
+2022-05-08 19:21:19.564460 - DEBUG --> GFCommon::send_notification(): Starting to process notification (#6273a34b50686 - Admin Notification). 
+2022-05-08 19:21:19.575670 - DEBUG --> GFCommon::send_email(): Sending email via wp_mail(). 
+2022-05-08 19:21:19.576047 - DEBUG --> Array
+(
+    [to] => godwill@belvadigital.com
+    [subject] => New submission from account_holders_campaign
+    [message] => <html>
+	<head>
+		<title>New submission from account_holders_campaign</title>
+	</head>
+	<body>
+		<table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Full Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">daisy</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Phone Number</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">0799448090</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:daisymitti@gmail.com'>daisymitti@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What is the nature of your business?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">college</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What services are you interested in?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">eCommerce payment solution</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Which payment solutions are you interested in?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">MCo-opCash Bulk Payment Service</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Amount of loan you might need</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Ksh 100,000 - Ksh 1,000,000</font>
+		                                    </td>
+		                               </tr>
+		                               </table>
+                        </td>
+                   </tr>
+               </table>
+	</body>
+</html>
+    [headers] => Array
+        (
+            [From] => From: "godwill@belvadigital.com" <godwill@belvadigital.com>
+            [Content-type] => Content-type: text/html; charset=UTF-8
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [abort_email] => 
+)
+ 
+2022-05-08 19:21:22.994054 - DEBUG --> GFCommon::send_email(): Result from wp_mail():  
+2022-05-08 19:21:22.994370 - ERROR --> GFCommon::send_email(): WordPress was unable to send the notification email (#6273a34b50686 - Admin Notification) for entry #423 to the sending server. 
+2022-05-08 19:21:22.994645 - DEBUG --> GFCommon::send_email(): The WordPress phpmailer_init hook has been detected, usually used by SMTP plugins. It can alter the email setup/content or sending server, and impact the notification deliverability. 
+2022-05-08 19:21:23.209655 - DEBUG --> GFFormDisplay::handle_confirmation(): Preparing confirmation (#6273a34ba7eb2 - Default Confirmation). 
+2022-05-08 19:21:23.210253 - DEBUG --> GFFormDisplay::handle_confirmation(): Sending confirmation => <div id='gform_confirmation_wrapper_5' class='gform_confirmation_wrapper '><div id='gform_confirmation_message_5' class='gform_confirmation_message_5 gform_confirmation_message'>Thanks for contacting us! We will get in touch with you shortly.</div></div> 
+2022-05-08 19:21:25.703531 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #5. entry #423. 
+2022-05-08 19:21:25.718307 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #5. entry #423. 
+2022-05-08 19:21:25.737703 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #5. entry #423. 
+2022-05-08 19:22:01.704632 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (5) AND `t1`.`status` = 'active') ORDER BY `t1`.`id` DESC LIMIT 20 
+2022-05-08 19:25:26.034049 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (5) AND `t1`.`status` = 'active') ORDER BY `t1`.`id` DESC LIMIT 20 
+2022-05-08 19:26:08.956814 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#5) submission. 
+2022-05-08 19:26:08.959732 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2022-05-08 19:26:08.960751 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2022-05-08 19:26:08.960870 - DEBUG --> GFFormDisplay::process_form(): Submission is valid. Moving forward. 
+2022-05-08 19:26:08.961026 - DEBUG --> GFFormsModel::save_entry(): Saving entry. 
+2022-05-08 19:26:09.240848 - DEBUG --> GFFormsModel::save_entry(): Entry record created in the database. ID: 424. 
+2022-05-08 19:26:09.324536 - DEBUG --> GFFormsModel::save_entry(): Saving entry fields. 
+2022-05-08 19:26:09.325330 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Full Name(#16 - text). 
+2022-05-08 19:26:09.325897 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Phone Number(#22 - text). 
+2022-05-08 19:26:09.326498 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Email(#21 - email). 
+2022-05-08 19:26:09.327071 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What is the nature of your business?(#23 - text). 
+2022-05-08 19:26:09.327748 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What services are you interested in?(#5 - select). 
+2022-05-08 19:26:09.328280 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Which payment solutions are you interested in?(#6 - select). 
+2022-05-08 19:26:09.328825 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Amount of loan you might need(#7 - select). 
+2022-05-08 19:26:09.416177 - DEBUG --> GFFormsModel::save_entry(): Finished saving entry fields. 
+2022-05-08 19:26:09.416685 - DEBUG --> GFCommon::is_spam_entry(): Is submission considered spam? No. 
+2022-05-08 19:26:09.417012 - DEBUG --> GF_Background_Process::dispatch(): Running for gf_feed_processor. 
+2022-05-08 19:26:09.419755 - DEBUG --> GF_Background_Process::dispatch(): Unable to dispatch tasks to Admin Ajax: Nothing left to process 
+2022-05-08 19:26:09.420526 - DEBUG --> GFFormsModel::create_post(): Starting. 
+2022-05-08 19:26:09.420977 - DEBUG --> GFFormsModel::create_post(): Stopping. The form doesn't have any post fields. 
+2022-05-08 19:26:09.421207 - DEBUG --> GFAPI::send_notifications(): Gathering notifications for form_submission event for entry #424. 
+2022-05-08 19:26:09.421665 - DEBUG --> GFCommon::send_notifications(): Processing notifications for form_submission event for entry #424: Array
+(
+    [0] => 6273a34b50686
+)
+
+(only active/applicable notifications are sent) 
+2022-05-08 19:26:09.421914 - DEBUG --> GFCommon::send_notification(): Starting to process notification (#6273a34b50686 - Admin Notification). 
+2022-05-08 19:26:09.428899 - DEBUG --> GFCommon::send_email(): Sending email via wp_mail(). 
+2022-05-08 19:26:09.429148 - DEBUG --> Array
+(
+    [to] => godwill@belvadigital.com
+    [subject] => New submission from account_holders_campaign
+    [message] => <html>
+	<head>
+		<title>New submission from account_holders_campaign</title>
+	</head>
+	<body>
+		<table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Full Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">daisy</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Phone Number</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">0799448090</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:daisymitti@gmail.com'>daisymitti@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What is the nature of your business?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">college</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What services are you interested in?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">eCommerce payment solution</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Which payment solutions are you interested in?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">MCo-opCash Bulk Payment Service</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Amount of loan you might need</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Ksh 100,000 - Ksh 1,000,000</font>
+		                                    </td>
+		                               </tr>
+		                               </table>
+                        </td>
+                   </tr>
+               </table>
+	</body>
+</html>
+    [headers] => Array
+        (
+            [From] => From: "godwill@belvadigital.com" <godwill@belvadigital.com>
+            [Content-type] => Content-type: text/html; charset=UTF-8
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [abort_email] => 
+)
+ 
+2022-05-08 19:26:11.814181 - DEBUG --> GFCommon::send_email(): Result from wp_mail():  
+2022-05-08 19:26:11.814536 - ERROR --> GFCommon::send_email(): WordPress was unable to send the notification email (#6273a34b50686 - Admin Notification) for entry #424 to the sending server. 
+2022-05-08 19:26:11.814762 - DEBUG --> GFCommon::send_email(): The WordPress phpmailer_init hook has been detected, usually used by SMTP plugins. It can alter the email setup/content or sending server, and impact the notification deliverability. 
+2022-05-08 19:26:11.989979 - DEBUG --> GFFormDisplay::handle_confirmation(): Preparing confirmation (#6273a34ba7eb2 - Default Confirmation). 
+2022-05-08 19:26:11.990808 - DEBUG --> GFFormDisplay::handle_confirmation(): Sending confirmation => <div id='gform_confirmation_wrapper_5' class='gform_confirmation_wrapper '><div id='gform_confirmation_message_5' class='gform_confirmation_message_5 gform_confirmation_message'>Thanks for contacting us! We will get in touch with you shortly.</div></div> 
+2022-05-08 19:26:13.931886 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #5. entry #424. 
+2022-05-08 19:26:13.949893 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #5. entry #424. 
+2022-05-08 19:26:13.968935 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #5. entry #424. 
+2022-05-08 19:26:33.292989 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#5) submission. 
+2022-05-08 19:26:33.295490 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2022-05-08 19:26:33.296471 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2022-05-08 19:26:33.296574 - DEBUG --> GFFormDisplay::process_form(): Submission is valid. Moving forward. 
+2022-05-08 19:26:33.296700 - DEBUG --> GFFormsModel::save_entry(): Saving entry. 
+2022-05-08 19:26:33.492084 - DEBUG --> GFFormsModel::save_entry(): Entry record created in the database. ID: 425. 
+2022-05-08 19:26:33.493566 - DEBUG --> GFFormsModel::save_entry(): Saving entry fields. 
+2022-05-08 19:26:33.494384 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Full Name(#16 - text). 
+2022-05-08 19:26:33.495605 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Phone Number(#22 - text). 
+2022-05-08 19:26:33.496227 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Email(#21 - email). 
+2022-05-08 19:26:33.497250 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What is the nature of your business?(#23 - text). 
+2022-05-08 19:26:33.498471 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What services are you interested in?(#5 - select). 
+2022-05-08 19:26:33.499953 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Which payment solutions are you interested in?(#6 - select). 
+2022-05-08 19:26:33.501173 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Amount of loan you might need(#7 - select). 
+2022-05-08 19:26:33.616626 - DEBUG --> GFFormsModel::save_entry(): Finished saving entry fields. 
+2022-05-08 19:26:33.617151 - DEBUG --> GFCommon::is_spam_entry(): Is submission considered spam? No. 
+2022-05-08 19:26:33.617481 - DEBUG --> GF_Background_Process::dispatch(): Running for gf_feed_processor. 
+2022-05-08 19:26:33.619035 - DEBUG --> GF_Background_Process::dispatch(): Unable to dispatch tasks to Admin Ajax: Nothing left to process 
+2022-05-08 19:26:33.619349 - DEBUG --> GFFormsModel::create_post(): Starting. 
+2022-05-08 19:26:33.619743 - DEBUG --> GFFormsModel::create_post(): Stopping. The form doesn't have any post fields. 
+2022-05-08 19:26:33.619971 - DEBUG --> GFAPI::send_notifications(): Gathering notifications for form_submission event for entry #425. 
+2022-05-08 19:26:33.620228 - DEBUG --> GFCommon::send_notifications(): Processing notifications for form_submission event for entry #425: Array
+(
+    [0] => 6273a34b50686
+)
+
+(only active/applicable notifications are sent) 
+2022-05-08 19:26:33.620441 - DEBUG --> GFCommon::send_notification(): Starting to process notification (#6273a34b50686 - Admin Notification). 
+2022-05-08 19:26:33.627367 - DEBUG --> GFCommon::send_email(): Sending email via wp_mail(). 
+2022-05-08 19:26:33.627547 - DEBUG --> Array
+(
+    [to] => godwill@belvadigital.com
+    [subject] => New submission from account_holders_campaign
+    [message] => <html>
+	<head>
+		<title>New submission from account_holders_campaign</title>
+	</head>
+	<body>
+		<table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Full Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">daisy</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Phone Number</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">0799448090</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:daisymitti@gmail.com'>daisymitti@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What is the nature of your business?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">college</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What services are you interested in?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">eCommerce payment solution</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Which payment solutions are you interested in?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">MCo-opCash Bulk Payment Service</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Amount of loan you might need</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Ksh 100,000 - Ksh 1,000,000</font>
+		                                    </td>
+		                               </tr>
+		                               </table>
+                        </td>
+                   </tr>
+               </table>
+	</body>
+</html>
+    [headers] => Array
+        (
+            [From] => From: "godwill@belvadigital.com" <godwill@belvadigital.com>
+            [Content-type] => Content-type: text/html; charset=UTF-8
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [abort_email] => 
+)
+ 
+2022-05-08 19:26:35.726644 - DEBUG --> GFCommon::send_email(): Result from wp_mail():  
+2022-05-08 19:26:35.727381 - ERROR --> GFCommon::send_email(): WordPress was unable to send the notification email (#6273a34b50686 - Admin Notification) for entry #425 to the sending server. 
+2022-05-08 19:26:35.727726 - DEBUG --> GFCommon::send_email(): The WordPress phpmailer_init hook has been detected, usually used by SMTP plugins. It can alter the email setup/content or sending server, and impact the notification deliverability. 
+2022-05-08 19:26:35.847632 - DEBUG --> GFFormDisplay::handle_confirmation(): Preparing confirmation (#6273a34ba7eb2 - Default Confirmation). 
+2022-05-08 19:26:35.847961 - DEBUG --> GFFormDisplay::handle_confirmation(): Sending confirmation => <div id='gform_confirmation_wrapper_5' class='gform_confirmation_wrapper '><div id='gform_confirmation_message_5' class='gform_confirmation_message_5 gform_confirmation_message'>Thanks for contacting us! We will get in touch with you shortly.</div></div> 
+2022-05-08 19:26:36.072979 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #5. entry #425. 
+2022-05-08 19:26:36.077987 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #5. entry #425. 
+2022-05-08 19:26:36.088017 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #5. entry #425. 
+2022-05-08 19:27:03.377876 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#5) submission. 
+2022-05-08 19:27:03.384074 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2022-05-08 19:27:03.388587 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2022-05-08 19:27:03.389025 - DEBUG --> GFFormDisplay::process_form(): Submission is valid. Moving forward. 
+2022-05-08 19:27:03.389513 - DEBUG --> GFFormsModel::save_entry(): Saving entry. 
+2022-05-08 19:27:03.571022 - DEBUG --> GFFormsModel::save_entry(): Entry record created in the database. ID: 426. 
+2022-05-08 19:27:03.689724 - DEBUG --> GFFormsModel::save_entry(): Saving entry fields. 
+2022-05-08 19:27:03.690018 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Full Name(#16 - text). 
+2022-05-08 19:27:03.690217 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Phone Number(#22 - text). 
+2022-05-08 19:27:03.690399 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Email(#21 - email). 
+2022-05-08 19:27:03.690584 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What is the nature of your business?(#23 - text). 
+2022-05-08 19:27:03.690758 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What services are you interested in?(#5 - select). 
+2022-05-08 19:27:03.690927 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Which payment solutions are you interested in?(#6 - select). 
+2022-05-08 19:27:03.691097 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Amount of loan you might need(#7 - select). 
+2022-05-08 19:27:03.790904 - DEBUG --> GFFormsModel::save_entry(): Finished saving entry fields. 
+2022-05-08 19:27:03.791208 - DEBUG --> GFCommon::is_spam_entry(): Is submission considered spam? No. 
+2022-05-08 19:27:03.791563 - DEBUG --> GF_Background_Process::dispatch(): Running for gf_feed_processor. 
+2022-05-08 19:27:03.792301 - DEBUG --> GF_Background_Process::dispatch(): Unable to dispatch tasks to Admin Ajax: Nothing left to process 
+2022-05-08 19:27:03.792412 - DEBUG --> GFFormsModel::create_post(): Starting. 
+2022-05-08 19:27:03.792541 - DEBUG --> GFFormsModel::create_post(): Stopping. The form doesn't have any post fields. 
+2022-05-08 19:27:03.792610 - DEBUG --> GFAPI::send_notifications(): Gathering notifications for form_submission event for entry #426. 
+2022-05-08 19:27:03.792711 - DEBUG --> GFCommon::send_notifications(): Processing notifications for form_submission event for entry #426: Array
+(
+    [0] => 6273a34b50686
+)
+
+(only active/applicable notifications are sent) 
+2022-05-08 19:27:03.792783 - DEBUG --> GFCommon::send_notification(): Starting to process notification (#6273a34b50686 - Admin Notification). 
+2022-05-08 19:27:03.796104 - DEBUG --> GFCommon::send_email(): Sending email via wp_mail(). 
+2022-05-08 19:27:03.796206 - DEBUG --> Array
+(
+    [to] => godwill@belvadigital.com
+    [subject] => New submission from account_holders_campaign
+    [message] => <html>
+	<head>
+		<title>New submission from account_holders_campaign</title>
+	</head>
+	<body>
+		<table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Full Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">daisy</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Phone Number</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">0799448090</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:daisymitti@gmail.com'>daisymitti@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What is the nature of your business?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">college</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What services are you interested in?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">eCommerce payment solution</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Which payment solutions are you interested in?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">MCo-opCash Bulk Payment Service</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Amount of loan you might need</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Ksh 100,000 - Ksh 1,000,000</font>
+		                                    </td>
+		                               </tr>
+		                               </table>
+                        </td>
+                   </tr>
+               </table>
+	</body>
+</html>
+    [headers] => Array
+        (
+            [From] => From: "godwill@belvadigital.com" <godwill@belvadigital.com>
+            [Content-type] => Content-type: text/html; charset=UTF-8
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [abort_email] => 
+)
+ 
+2022-05-08 19:27:05.792820 - DEBUG --> GFCommon::send_email(): Result from wp_mail():  
+2022-05-08 19:27:05.793148 - ERROR --> GFCommon::send_email(): WordPress was unable to send the notification email (#6273a34b50686 - Admin Notification) for entry #426 to the sending server. 
+2022-05-08 19:27:05.793366 - DEBUG --> GFCommon::send_email(): The WordPress phpmailer_init hook has been detected, usually used by SMTP plugins. It can alter the email setup/content or sending server, and impact the notification deliverability. 
+2022-05-08 19:27:05.916436 - DEBUG --> GFFormDisplay::handle_confirmation(): Preparing confirmation (#6273a34ba7eb2 - Default Confirmation). 
+2022-05-08 19:27:05.917463 - DEBUG --> GFFormDisplay::handle_confirmation(): Sending confirmation => <div id='gform_confirmation_wrapper_5' class='gform_confirmation_wrapper '><div id='gform_confirmation_message_5' class='gform_confirmation_message_5 gform_confirmation_message'>Thanks for contacting us! We will get in touch with you shortly.</div></div> 
+2022-05-08 19:27:06.054091 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #5. entry #426. 
+2022-05-08 19:27:06.058199 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #5. entry #426. 
+2022-05-08 19:27:06.068101 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #5. entry #426. 
+2022-05-08 19:27:52.013035 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (5) AND `t1`.`status` = 'active') ORDER BY `t1`.`id` DESC LIMIT 20 
+2022-05-08 19:28:33.686335 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (5) AND (`t1`.`status` = 'active' AND `t1`.`is_read` = '')) ORDER BY `t1`.`id` DESC LIMIT 20 
+2022-05-08 19:29:07.264403 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` WHERE (`t1`.`form_id` IN (7) AND `t1`.`status` = 'active') ORDER BY `t1`.`id` DESC LIMIT 20 
+2022-05-08 19:31:01.609616 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#5) submission. 
+2022-05-08 19:31:01.611371 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2022-05-08 19:31:01.612238 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2022-05-08 19:31:01.612349 - DEBUG --> GFFormDisplay::process_form(): Submission is valid. Moving forward. 
+2022-05-08 19:31:01.612492 - DEBUG --> GFFormsModel::save_entry(): Saving entry. 
+2022-05-08 19:31:01.797306 - DEBUG --> GFFormsModel::save_entry(): Entry record created in the database. ID: 427. 
+2022-05-08 19:31:01.799853 - DEBUG --> GFFormsModel::save_entry(): Saving entry fields. 
+2022-05-08 19:31:01.801872 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Full Name(#16 - text). 
+2022-05-08 19:31:01.802932 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Phone Number(#22 - text). 
+2022-05-08 19:31:01.803528 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Email(#21 - email). 
+2022-05-08 19:31:01.804111 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What is the nature of your business?(#23 - text). 
+2022-05-08 19:31:01.804665 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What services are you interested in?(#5 - select). 
+2022-05-08 19:31:01.805190 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Which payment solutions are you interested in?(#6 - select). 
+2022-05-08 19:31:01.805712 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Amount of loan you might need(#7 - select). 
+2022-05-08 19:31:01.969788 - DEBUG --> GFFormsModel::save_entry(): Finished saving entry fields. 
+2022-05-08 19:31:01.970287 - DEBUG --> GFCommon::is_spam_entry(): Is submission considered spam? No. 
+2022-05-08 19:31:01.970616 - DEBUG --> GF_Background_Process::dispatch(): Running for gf_feed_processor. 
+2022-05-08 19:31:01.972282 - DEBUG --> GF_Background_Process::dispatch(): Unable to dispatch tasks to Admin Ajax: Nothing left to process 
+2022-05-08 19:31:01.972601 - DEBUG --> GFFormsModel::create_post(): Starting. 
+2022-05-08 19:31:01.973107 - DEBUG --> GFFormsModel::create_post(): Stopping. The form doesn't have any post fields. 
+2022-05-08 19:31:01.973356 - DEBUG --> GFAPI::send_notifications(): Gathering notifications for form_submission event for entry #427. 
+2022-05-08 19:31:01.973613 - DEBUG --> GFCommon::send_notifications(): Processing notifications for form_submission event for entry #427: Array
+(
+    [0] => 6273a34b50686
+)
+
+(only active/applicable notifications are sent) 
+2022-05-08 19:31:01.973824 - DEBUG --> GFCommon::send_notification(): Starting to process notification (#6273a34b50686 - Admin Notification). 
+2022-05-08 19:31:01.980730 - DEBUG --> GFCommon::send_email(): Sending email via wp_mail(). 
+2022-05-08 19:31:01.980998 - DEBUG --> Array
+(
+    [to] => godwill@belvadigital.com
+    [subject] => New submission from account_holders_campaign
+    [message] => <html>
+	<head>
+		<title>New submission from account_holders_campaign</title>
+	</head>
+	<body>
+		<table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Full Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">daisy</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Phone Number</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">0799448090</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:daisymitti@gmail.com'>daisymitti@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What is the nature of your business?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">college</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What services are you interested in?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">eCommerce payment solution</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Which payment solutions are you interested in?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">MCo-opCash Bulk Payment Service</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Amount of loan you might need</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Ksh 100,000 - Ksh 1,000,000</font>
+		                                    </td>
+		                               </tr>
+		                               </table>
+                        </td>
+                   </tr>
+               </table>
+	</body>
+</html>
+    [headers] => Array
+        (
+            [From] => From: "godwill@belvadigital.com" <godwill@belvadigital.com>
+            [Content-type] => Content-type: text/html; charset=UTF-8
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [abort_email] => 
+)
+ 
+2022-05-08 19:31:03.697801 - DEBUG --> GFCommon::send_email(): Result from wp_mail():  
+2022-05-08 19:31:03.698544 - ERROR --> GFCommon::send_email(): WordPress was unable to send the notification email (#6273a34b50686 - Admin Notification) for entry #427 to the sending server. 
+2022-05-08 19:31:03.698796 - DEBUG --> GFCommon::send_email(): The WordPress phpmailer_init hook has been detected, usually used by SMTP plugins. It can alter the email setup/content or sending server, and impact the notification deliverability. 
+2022-05-08 19:31:03.891180 - DEBUG --> GFFormDisplay::handle_confirmation(): Preparing confirmation (#6273a34ba7eb2 - Default Confirmation). 
+2022-05-08 19:31:03.891709 - DEBUG --> GFFormDisplay::handle_confirmation(): Sending confirmation => Array
+(
+    [redirect] => http://msme.local/campaign/
+)
+ 
+2022-05-08 19:31:31.387528 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#5) submission. 
+2022-05-08 19:31:31.389467 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2022-05-08 19:31:31.390315 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? No. 
+2022-05-08 19:41:58.207200 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#5) submission. 
+2022-05-08 19:41:58.214807 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2022-05-08 19:41:58.217152 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? No. 
+2022-05-08 19:44:37.674034 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#5) submission. 
+2022-05-08 19:44:37.675801 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2022-05-08 19:44:37.676688 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? No. 
+2022-05-08 19:47:48.556965 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#5) submission. 
+2022-05-08 19:47:48.559387 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2022-05-08 19:47:48.560496 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? No. 
+2022-05-08 19:48:37.974179 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#7) submission. 
+2022-05-08 19:48:37.976337 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2022-05-08 19:48:37.977200 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? No. 
+2022-05-08 19:53:59.422506 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#5) submission. 
+2022-05-08 19:53:59.426059 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2022-05-08 19:53:59.427407 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? No. 
+2022-05-08 19:54:36.515738 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#7) submission. 
+2022-05-08 19:54:36.517411 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2022-05-08 19:54:36.518208 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? No. 
+2022-05-08 19:55:37.912370 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#7) submission. 
+2022-05-08 19:55:37.917419 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2022-05-08 19:55:37.922156 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2022-05-08 19:55:37.922661 - DEBUG --> GFFormDisplay::process_form(): Submission is valid. Moving forward. 
+2022-05-08 19:55:37.923038 - DEBUG --> GFFormsModel::save_entry(): Saving entry. 
+2022-05-08 19:55:38.091039 - DEBUG --> GFFormsModel::save_entry(): Entry record created in the database. ID: 428. 
+2022-05-08 19:55:38.172405 - DEBUG --> GFFormsModel::save_entry(): Saving entry fields. 
+2022-05-08 19:55:38.172662 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Full Name(#16 - text). 
+2022-05-08 19:55:38.172840 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Phone Number(#22 - text). 
+2022-05-08 19:55:38.173010 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Email(#21 - email). 
+2022-05-08 19:55:38.173186 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What is the nature of your business?(#23 - text). 
+2022-05-08 19:55:38.173357 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What services are you interested in?(#5 - select). 
+2022-05-08 19:55:38.173521 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Which payment solutions are you interested in?(#6 - select). 
+2022-05-08 19:55:38.173681 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Amount of loan you might need(#7 - select). 
+2022-05-08 19:55:38.564639 - DEBUG --> GFFormsModel::save_entry(): Finished saving entry fields. 
+2022-05-08 19:55:38.564877 - DEBUG --> GFCommon::is_spam_entry(): Is submission considered spam? No. 
+2022-05-08 19:55:38.565035 - DEBUG --> GF_Background_Process::dispatch(): Running for gf_feed_processor. 
+2022-05-08 19:55:38.565757 - DEBUG --> GF_Background_Process::dispatch(): Unable to dispatch tasks to Admin Ajax: Nothing left to process 
+2022-05-08 19:55:38.565871 - DEBUG --> GFFormsModel::create_post(): Starting. 
+2022-05-08 19:55:38.566000 - DEBUG --> GFFormsModel::create_post(): Stopping. The form doesn't have any post fields. 
+2022-05-08 19:55:38.566071 - DEBUG --> GFAPI::send_notifications(): Gathering notifications for form_submission event for entry #428. 
+2022-05-08 19:55:38.566153 - DEBUG --> GFCommon::send_notifications(): Processing notifications for form_submission event for entry #428: Array
+(
+    [0] => 6273a34b50686
+)
+
+(only active/applicable notifications are sent) 
+2022-05-08 19:55:38.566220 - DEBUG --> GFCommon::send_notification(): Starting to process notification (#6273a34b50686 - Admin Notification). 
+2022-05-08 19:55:38.569410 - DEBUG --> GFCommon::send_email(): Sending email via wp_mail(). 
+2022-05-08 19:55:38.569528 - DEBUG --> Array
+(
+    [to] => godwill@belvadigital.com
+    [subject] => New submission from non_account_holders_campaign
+    [message] => <html>
+	<head>
+		<title>New submission from non_account_holders_campaign</title>
+	</head>
+	<body>
+		<table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Full Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">test</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Phone Number</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">test</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:test@gmail.com'>test@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What is the nature of your business?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">test</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What services are you interested in?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Business loans</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Which payment solutions are you interested in?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Internet Banking</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Amount of loan you might need</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Ksh 1,000 - Ksh 100,000</font>
+		                                    </td>
+		                               </tr>
+		                               </table>
+                        </td>
+                   </tr>
+               </table>
+	</body>
+</html>
+    [headers] => Array
+        (
+            [From] => From: "godwill@belvadigital.com" <godwill@belvadigital.com>
+            [Content-type] => Content-type: text/html; charset=UTF-8
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [abort_email] => 
+)
+ 
+2022-05-08 19:55:40.635087 - DEBUG --> GFCommon::send_email(): Result from wp_mail():  
+2022-05-08 19:55:40.635416 - ERROR --> GFCommon::send_email(): WordPress was unable to send the notification email (#6273a34b50686 - Admin Notification) for entry #428 to the sending server. 
+2022-05-08 19:55:40.635636 - DEBUG --> GFCommon::send_email(): The WordPress phpmailer_init hook has been detected, usually used by SMTP plugins. It can alter the email setup/content or sending server, and impact the notification deliverability. 
+2022-05-08 19:55:40.850708 - DEBUG --> GFFormDisplay::handle_confirmation(): Preparing confirmation (#6273a34ba7eb2 - Default Confirmation). 
+2022-05-08 19:55:40.851239 - DEBUG --> GFFormDisplay::handle_confirmation(): Sending confirmation => <div id='gform_confirmation_wrapper_7' class='gform_confirmation_wrapper '><div id='gform_confirmation_message_7' class='gform_confirmation_message_7 gform_confirmation_message'>Thanks for contacting us! We will get in touch with you shortly.</div></div> 
+2022-05-08 19:55:42.112696 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #7. entry #428. 
+2022-05-08 19:55:42.149673 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #7. entry #428. 
+2022-05-08 19:55:42.155193 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #7. entry #428. 
+2022-05-08 19:56:09.861861 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#7) submission. 
+2022-05-08 19:56:09.867151 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2022-05-08 19:56:09.869534 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2022-05-08 19:56:09.870306 - DEBUG --> GFFormDisplay::process_form(): Submission is valid. Moving forward. 
+2022-05-08 19:56:09.870862 - DEBUG --> GFFormsModel::save_entry(): Saving entry. 
+2022-05-08 19:56:09.987709 - DEBUG --> GFFormsModel::save_entry(): Entry record created in the database. ID: 429. 
+2022-05-08 19:56:09.990405 - DEBUG --> GFFormsModel::save_entry(): Saving entry fields. 
+2022-05-08 19:56:09.991178 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Full Name(#16 - text). 
+2022-05-08 19:56:09.991741 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Phone Number(#22 - text). 
+2022-05-08 19:56:09.992629 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Email(#21 - email). 
+2022-05-08 19:56:09.993294 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What is the nature of your business?(#23 - text). 
+2022-05-08 19:56:09.993846 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What services are you interested in?(#5 - select). 
+2022-05-08 19:56:09.994543 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Which payment solutions are you interested in?(#6 - select). 
+2022-05-08 19:56:09.995117 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Amount of loan you might need(#7 - select). 
+2022-05-08 19:56:10.082952 - DEBUG --> GFFormsModel::save_entry(): Finished saving entry fields. 
+2022-05-08 19:56:10.083692 - DEBUG --> GFCommon::is_spam_entry(): Is submission considered spam? No. 
+2022-05-08 19:56:10.084222 - DEBUG --> GF_Background_Process::dispatch(): Running for gf_feed_processor. 
+2022-05-08 19:56:10.086616 - DEBUG --> GF_Background_Process::dispatch(): Unable to dispatch tasks to Admin Ajax: Nothing left to process 
+2022-05-08 19:56:10.087208 - DEBUG --> GFFormsModel::create_post(): Starting. 
+2022-05-08 19:56:10.089598 - DEBUG --> GFFormsModel::create_post(): Stopping. The form doesn't have any post fields. 
+2022-05-08 19:56:10.090678 - DEBUG --> GFAPI::send_notifications(): Gathering notifications for form_submission event for entry #429. 
+2022-05-08 19:56:10.091820 - DEBUG --> GFCommon::send_notifications(): Processing notifications for form_submission event for entry #429: Array
+(
+    [0] => 6273a34b50686
+)
+
+(only active/applicable notifications are sent) 
+2022-05-08 19:56:10.092976 - DEBUG --> GFCommon::send_notification(): Starting to process notification (#6273a34b50686 - Admin Notification). 
+2022-05-08 19:56:10.101701 - DEBUG --> GFCommon::send_email(): Sending email via wp_mail(). 
+2022-05-08 19:56:10.102011 - DEBUG --> Array
+(
+    [to] => godwill@belvadigital.com
+    [subject] => New submission from non_account_holders_campaign
+    [message] => <html>
+	<head>
+		<title>New submission from non_account_holders_campaign</title>
+	</head>
+	<body>
+		<table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Full Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">test</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Phone Number</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">test</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:test@gmail.com'>test@gmail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What is the nature of your business?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">test</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What services are you interested in?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Business loans</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Which payment solutions are you interested in?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Internet Banking</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Amount of loan you might need</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Ksh 1,000 - Ksh 100,000</font>
+		                                    </td>
+		                               </tr>
+		                               </table>
+                        </td>
+                   </tr>
+               </table>
+	</body>
+</html>
+    [headers] => Array
+        (
+            [From] => From: "godwill@belvadigital.com" <godwill@belvadigital.com>
+            [Content-type] => Content-type: text/html; charset=UTF-8
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [abort_email] => 
+)
+ 
+2022-05-08 19:56:12.247453 - DEBUG --> GFCommon::send_email(): Result from wp_mail():  
+2022-05-08 19:56:12.247968 - ERROR --> GFCommon::send_email(): WordPress was unable to send the notification email (#6273a34b50686 - Admin Notification) for entry #429 to the sending server. 
+2022-05-08 19:56:12.248368 - DEBUG --> GFCommon::send_email(): The WordPress phpmailer_init hook has been detected, usually used by SMTP plugins. It can alter the email setup/content or sending server, and impact the notification deliverability. 
+2022-05-08 19:56:12.361001 - DEBUG --> GFFormDisplay::handle_confirmation(): Preparing confirmation (#6273a34ba7eb2 - Default Confirmation). 
+2022-05-08 19:56:12.361567 - DEBUG --> GFFormDisplay::handle_confirmation(): Sending confirmation => <div id='gform_confirmation_wrapper_7' class='gform_confirmation_wrapper '><div id='gform_confirmation_message_7' class='gform_confirmation_message_7 gform_confirmation_message'>Thanks for contacting us! We will get in touch with you shortly.</div></div> 
+2022-05-08 19:56:12.571221 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #7. entry #429. 
+2022-05-08 19:56:12.581546 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #7. entry #429. 
+2022-05-08 19:56:12.584861 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #7. entry #429. 
