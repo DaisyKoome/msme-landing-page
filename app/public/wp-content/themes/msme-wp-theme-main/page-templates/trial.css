@@ -154,14 +154,6 @@ select#input_5_7 {
     margin-right: 125px;
 }
 
-
-
-
-
-
-
-
-
 .page-id-1068 .gfield_validation_message {
     color: red !important;
     margin-top: -24px;
@@ -181,9 +173,6 @@ div#gform_7_validation_container {
     display: none;
 }
 
-
-
-
 .col-md-2.d-flex.justify-content-end {
     position: absolute;
     margin-left: 940px;
@@ -195,3 +184,40 @@ div#gform_7_validation_container {
     margin-left: -55px;
 }
 
+.page-id-1068 .button-header {
+    display: flex;
+    position: absolute;
+    margin-left: 950px;
+}
+
+
+@media only screen and (max-width: 650px){
+    .mobile-nav-msme {
+          display: flex;
+          width: 28px;
+          height: 28px;
+          margin-bottom: 6px;
+    }
+  }
+  
+@media only screen and (max-width: 650px){
+  .mobile-nav-coop {
+      width: 100px !important;
+      height: 43px;
+      display: flex;
+      top: 40px;
+      left: 40px;
+  }
+  }
+
+  @media (min-width: 768px){
+html, body {
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 650px){
+.mobile-header{
+  display: flex;  
+}
+}

@@ -51,10 +51,10 @@
 				</div>
 				<ul class="mobile-nav">
 						<li>
-								<a href="<?php echo home_url('/'); ?>" class="active">MSME</a>
+								<!-- <a href=" echo home_url('/'); " class="active">MSME</a> -->
 						</li>
 						<li>
-								<a href="<?php echo home_url('/about-us/'); ?>"> E-commerce </a>
+							<!--	<a href="echo home_url('/about-us/');"> E-commerce </a> -->
 						</li>
 				</ul>
 		</div>
@@ -64,16 +64,19 @@
 			<section  style="background-color: #198754 !important;">
   <div class="container">
     <div class="row">
-      <div class="col-md-4 txt-align-center">
+      <div class="col-md-4 txt-align-center mobile-header">
       <a href="https://msme.co-opbank.co.ke/" target="_blank">
-        <img src="http://msme.local/wp-content/uploads/2022/05/msme-logo-campaign-page-min.png" style="margin-top:10px;">
+        <img src="http://msme.local/wp-content/uploads/2022/05/msme-logo-campaign-page-min.png" class="mobile-nav-msme" style="margin-top:10px;">
         </a>
+
+        <!--<p class="nav-pipe mobile-nav-pipe">|</p>-->
+
         <a href="https://www.co-opbank.co.ke/" target="_blank">
-          <img src="https://www.co-opbank.co.ke/wp-content/uploads/2021/11/coop-bank-logo.png" class="img-fluid py-3" alt="Responsive image" style="width: 266px;position: absolute;
-    margin-left: 30px; margin-top: 10px;">
+          <img src="https://www.co-opbank.co.ke/wp-content/uploads/2021/11/coop-bank-logo.png" class="mobile-nav-coop img-fluid py-3" alt="Responsive image" style="width: 266px;position: absolute;
+            margin-left: 30px; margin-top: 10px;">
         </a>
       </div>
-        <div class="col-md-8 button" style="margin-top:20px;">
+<!--        <div class="col-md-8 button-header" style="margin-top:20px;">
         <button style="margin-right:30px; background: #76BC21; border-radius: 3px; border: #76BC21; color:white !important; font-weight: 700;
         font-size: 16px; line-height: 28px; display: flex; align-items: center; text-align: center;">
         <a href="https://msme.co-opbank.co.ke/" target="_blank" style="color:white;">
@@ -84,7 +87,7 @@
         <a href="https://campaign.co-opbank.co.ke/ecommerce/" target="_blank" style="color:white;">
           E-Commerce
         </button>
-        <div>
+  </div>-->
     </div>
   </div>
 	</section>
@@ -309,7 +312,7 @@
   </div>
   </section>
 
-<section class="primary-back footer">
+<!--<section class="primary-back footer">
 		<div class="container">
 			<div class="row py-3">
         <div class="col-md-10 d-flex justify-content-start">
@@ -328,4 +331,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>-->
+
+
+  
